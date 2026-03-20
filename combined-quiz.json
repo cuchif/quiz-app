@@ -17,7 +17,7 @@
     "topic": "Film & TV",
     "question": "What state does Dorothy live in before being transported to Oz?",
     "correct_answer": "Kansas",
-    "explanation": "Dorothy lives on a dusty Kansas farm with her Aunt Em and Uncle Henry. The filmmakers shot all the Kansas scenes in sepia tone, so the transition to full Technicolor when Dorothy opens the door to Oz was deliberately designed to shock audiences.",
+    "explanation": "Dorothy lives on a Kansas farm with her Aunt Em and Uncle Henry. The Kansas scenes were filmed using sepia-toned film stock, and the shift to full Technicolor when Dorothy opens the door to Oz still catches first-time viewers off guard.",
     "hint": "It's a Midwestern state known for flat prairies and tornadoes.",
     "difficulty": "easy",
     "answers": [
@@ -129,7 +129,7 @@
     "topic": "Film & TV",
     "question": "What famous song does Dorothy sing on the farm in Kansas in The Wizard of Oz?",
     "correct_answer": "Over the Rainbow",
-    "explanation": "The studio nearly cut 'Over the Rainbow' from the film — executives thought it slowed the picture down. It went on to win the Academy Award for Best Original Song in 1940 and became Judy Garland's signature for life.",
+    "explanation": "The studio nearly cut 'Over the Rainbow' from the film — executives thought it slowed the picture down. It went on to win the Academy Award for Best Original Song in 1940 and became Judy Garland's signature song for the rest of her career.",
     "hint": "The song is about wishing for a better place that exists beyond a colorful weather phenomenon.",
     "difficulty": "easy",
     "answers": [
@@ -443,7 +443,7 @@
       "Evita",
       "Chicago"
     ],
-    "explanation": "Cats, composed by Andrew Lloyd Webber and based on T.S. Eliot's poetry, opened on Broadway in 1982. 'Memory' became one of the most recorded songs in history.",
+    "explanation": "Cats, composed by Andrew Lloyd Webber and based on T.S. Eliot's poetry, opened on Broadway in 1982. 'Memory' has been recorded by over 150 artists in dozens of languages.",
     "hint": "The show is based on T.S. Eliot poems about a specific type of animal.",
     "difficulty": "easy"
   },
@@ -541,7 +541,7 @@
       "Kiss of the Spider Woman",
       "West Side Story"
     ],
-    "explanation": "Eva Perón rose from poverty to become the most powerful woman in Argentina. Andrew Lloyd Webber and Tim Rice wrote the score, and the show opened on Broadway in 1979.",
+    "explanation": "Eva Perón rose from poverty to become First Lady of Argentina, wielding enormous political influence until her death at age 33. Andrew Lloyd Webber and Tim Rice wrote the score, and the show opened on Broadway in 1979.",
     "hint": "The show is about the wife of an Argentine president.",
     "difficulty": "medium"
   },
@@ -555,7 +555,7 @@
       "Phantom of the Opera",
       "Sweeney Todd"
     ],
-    "explanation": "Les Misérables opened on Broadway in 1987 and is one of the longest-running musicals in history, featuring songs like 'I Dreamed a Dream' and 'One Day More.'",
+    "explanation": "Les Misérables opened on Broadway in 1987 and ran for 16 years in its original production. It features songs like 'I Dreamed a Dream' and 'One Day More.'",
     "hint": "The title is French and translates to 'The Miserable Ones.'",
     "difficulty": "easy"
   },
@@ -597,7 +597,7 @@
       "Tick, Tick... Boom!",
       "Hair"
     ],
-    "explanation": "Rent, by Jonathan Larson, opened on Broadway in 1996. It's a rock musical loosely based on Puccini's opera La Bohème, set in New York's East Village.",
+    "explanation": "Rent, by Jonathan Larson, opened on Broadway in 1996. Set in New York's East Village, it is a rock musical loosely based on Puccini's opera La Bohème.",
     "hint": "The title is something you pay to your landlord every month.",
     "difficulty": "easy"
   },
