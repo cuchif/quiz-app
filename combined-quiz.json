@@ -17,7 +17,7 @@
     "topic": "Film & TV",
     "question": "What state does Dorothy live in before being transported to Oz?",
     "correct_answer": "Kansas",
-    "explanation": "Dorothy lives on a Kansas farm with her Aunt Em and Uncle Henry. The Kansas scenes were filmed using sepia-toned film stock, and the shift to full Technicolor when Dorothy opens the door to Oz still catches first-time viewers off guard.",
+    "explanation": "Dorothy lives on a Kansas farm with her Aunt Em and Uncle Henry. The Kansas scenes were filmed using sepia-toned film stock — the switch to full Technicolor happens the instant Dorothy opens the door to Oz.",
     "hint": "It's a Midwestern state known for flat prairies and tornadoes.",
     "difficulty": "easy",
     "answers": [
@@ -73,7 +73,7 @@
     "topic": "Film & TV",
     "question": "What does the Tin Man want from the Wizard of Oz?",
     "correct_answer": "A heart",
-    "explanation": "The Tin Man weeps so often during the journey that his tears cause him to rust shut. He spends the entire film longing for a heart, despite showing more emotion than anyone else in the group.",
+    "explanation": "The Tin Man cries so often during the journey that his tears cause him to rust shut — ironic for someone who claims he has no heart.",
     "hint": "He wants the ability to feel emotions and love.",
     "difficulty": "easy",
     "answers": [
@@ -101,7 +101,7 @@
     "topic": "Film & TV",
     "question": "What is the name of the Good Witch who greets Dorothy in Munchkinland?",
     "correct_answer": "Glinda",
-    "explanation": "Glinda descends in a shimmering pink bubble and gives Dorothy the ruby slippers — setting the entire adventure in motion. Billie Burke, who played Glinda, was 53 years old at the time of filming.",
+    "explanation": "Glinda descends in a shimmering pink bubble and gives Dorothy the ruby slippers. Billie Burke, who played Glinda, was 53 years old at the time of filming.",
     "hint": "She arrives floating in a pink bubble and her name rhymes with 'Linda.'",
     "difficulty": "medium",
     "answers": [
@@ -171,7 +171,7 @@
     "topic": "Film & TV",
     "question": "What does Dorothy say while clicking her heels to return home in The Wizard of Oz?",
     "correct_answer": "There's no place like home",
-    "explanation": "Glinda tells Dorothy to click her ruby slippers' heels together three times while repeating this phrase — a moment so famous it has been parodied and quoted countless times since 1939.",
+    "explanation": "Glinda tells Dorothy to click her ruby slippers' heels together three times while repeating this phrase. Dorothy wakes up back in Kansas, surrounded by the people she loves.",
     "hint": "It's a five-word phrase that expresses how special one's own home is.",
     "difficulty": "easy",
     "answers": [
@@ -381,7 +381,7 @@
     "topic": "Politics",
     "question": "For what was Donald Trump first impeached in December 2019?",
     "correct_answer": "Abuse of power and obstruction of Congress",
-    "explanation": "It all came down to a phone call. Trump pressed Ukraine's President Zelensky to investigate Joe Biden, and when a whistleblower flagged the call, Congress moved to impeach. Trump was acquitted by the Senate in February 2020.",
+    "explanation": "During a July 2019 phone call with Ukraine's President Zelensky, Trump pressed him to investigate Joe Biden. A whistleblower reported the call, and Congress moved to impeach. Trump was acquitted by the Senate in February 2020.",
     "hint": "It involved a phone call with the president of Ukraine.",
     "difficulty": "medium",
     "answers": [
@@ -393,9 +393,9 @@
   },
   {
     "topic": "Politics",
-    "question": "What international climate accord did Trump withdraw the United States from during his first term?",
+    "question": "From what international climate accord did Trump withdraw the United States during his first term?",
     "correct_answer": "The Paris Agreement",
-    "explanation": "Trump pulled out of the Paris Agreement in June 2017, calling it a bad deal for American workers. The move drew global criticism and made the U.S. one of only a handful of nations outside the accord. The withdrawal took effect in November 2020.",
+    "explanation": "Trump pulled out of the Paris Agreement in June 2017, calling it a bad deal for American workers. The U.S. became the only country in the world to withdraw from the accord. The withdrawal took effect in November 2020.",
     "hint": "The agreement is named after the French capital where it was negotiated in 2015.",
     "difficulty": "easy",
     "answers": [
@@ -457,7 +457,7 @@
       "Bloody Bloody Andrew Jackson",
       "Suffs"
     ],
-    "explanation": "Lin-Manuel Miranda came up with the idea for Hamilton after picking up Ron Chernow's biography on vacation. The show opened on Broadway in 2015 and swept 11 Tony Awards — the most of any show that season.",
+    "explanation": "Lin-Manuel Miranda came up with the idea for Hamilton after picking up Ron Chernow's biography on vacation. The show opened on Broadway in 2015 and swept 11 Tony Awards.",
     "hint": "It's named after a Founding Father whose face is on the $10 bill.",
     "difficulty": "easy"
   },
@@ -541,7 +541,7 @@
       "Kiss of the Spider Woman",
       "West Side Story"
     ],
-    "explanation": "Eva Perón rose from poverty to become First Lady of Argentina, wielding enormous political influence until her death at age 33. Andrew Lloyd Webber and Tim Rice wrote the score, and the show opened on Broadway in 1979.",
+    "explanation": "Eva Perón rose from poverty to become First Lady of Argentina. She died of cancer at age 33, and her funeral drew millions of mourners. Andrew Lloyd Webber and Tim Rice wrote the score, and the show opened on Broadway in 1979.",
     "hint": "The show is about the wife of an Argentine president.",
     "difficulty": "medium"
   },
