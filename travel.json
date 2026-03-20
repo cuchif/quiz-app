@@ -1,0 +1,92 @@
+[
+  {
+    "topic": "Geography",
+    "question": "What is the most visited country in the world by international tourists?",
+    "correct_answer": "France",
+    "answers": ["France", "Spain", "United States", "Italy"],
+    "explanation": "France draws roughly 90 million international visitors a year. Paris alone accounts for a huge share, but the French Riviera, wine regions, and Alps pull in millions more.",
+    "hint": "Its capital is home to the Eiffel Tower.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Geography",
+    "question": "What city is home to the Colosseum?",
+    "correct_answer": "Rome",
+    "answers": ["Rome", "Athens", "Istanbul", "Naples"],
+    "explanation": "The Colosseum held up to 50,000 spectators and hosted gladiator fights, animal hunts, and public executions. It was built between 70 and 80 AD under the emperors Vespasian and Titus.",
+    "hint": "This city is the capital of Italy.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Geography",
+    "question": "In what country would you find Machu Picchu?",
+    "correct_answer": "Peru",
+    "answers": ["Peru", "Bolivia", "Ecuador", "Colombia"],
+    "explanation": "Machu Picchu sits nearly 8,000 feet above sea level in the Andes. The Inca built it around 1450, and it was abandoned about a century later. It remained unknown to outsiders until 1911.",
+    "hint": "This South American country's capital is Lima.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Geography",
+    "question": "What is the largest island in the world?",
+    "correct_answer": "Greenland",
+    "answers": ["Greenland", "Borneo", "Madagascar", "New Guinea"],
+    "explanation": "Greenland covers about 836,000 square miles but has a population of only around 57,000 people. Despite its name, about 80% of the island is covered by an ice sheet.",
+    "hint": "It's a territory of Denmark, located between the Arctic and Atlantic Oceans.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Geography",
+    "question": "What city sits on two continents, divided by the Bosphorus strait?",
+    "correct_answer": "Istanbul",
+    "answers": ["Istanbul", "Cairo", "Athens", "Dubai"],
+    "explanation": "Istanbul straddles Europe and Asia, connected by bridges and ferries across the Bosphorus. The city was previously known as Constantinople and, before that, Byzantium.",
+    "hint": "It was formerly called Constantinople.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Geography",
+    "question": "What U.S. national park is home to Old Faithful?",
+    "correct_answer": "Yellowstone",
+    "answers": ["Yellowstone", "Yosemite", "Grand Teton", "Glacier"],
+    "explanation": "Old Faithful erupts roughly every 90 minutes, shooting hot water up to 180 feet in the air. Yellowstone, established in 1872, was the world's first national park.",
+    "hint": "This park spans parts of Wyoming, Montana, and Idaho.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Geography",
+    "question": "In what country is the Great Barrier Reef?",
+    "correct_answer": "Australia",
+    "answers": ["Australia", "Indonesia", "Philippines", "Fiji"],
+    "explanation": "The Great Barrier Reef stretches over 1,400 miles off the northeast coast of Australia. It's the largest coral reef system on Earth and is visible from space.",
+    "hint": "This country is both a continent and a country.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Geography",
+    "question": "What is the smallest country in the world by area?",
+    "correct_answer": "Vatican City",
+    "answers": ["Vatican City", "Monaco", "San Marino", "Liechtenstein"],
+    "explanation": "Vatican City covers just 109 acres — smaller than many golf courses. It has its own post office, radio station, and a population of about 800 people.",
+    "hint": "It's entirely surrounded by a single European capital city.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Geography",
+    "question": "What river runs through the Grand Canyon?",
+    "correct_answer": "The Colorado River",
+    "answers": ["The Colorado River", "The Rio Grande", "The Missouri River", "The Snake River"],
+    "explanation": "The Colorado River carved the Grand Canyon over roughly 5 to 6 million years. The canyon is 277 miles long, up to 18 miles wide, and over a mile deep.",
+    "hint": "This river shares its name with a U.S. state.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Geography",
+    "question": "In what country are the pyramids of Giza?",
+    "correct_answer": "Egypt",
+    "answers": ["Egypt", "Sudan", "Jordan", "Iraq"],
+    "explanation": "The Great Pyramid of Giza was built around 2560 BC and stood as the tallest structure on Earth for over 3,800 years. The pyramids sit on the outskirts of modern-day Cairo.",
+    "hint": "The Nile River runs through this country.",
+    "difficulty": "easy"
+  }
+]

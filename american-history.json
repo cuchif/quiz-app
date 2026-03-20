@@ -1,0 +1,92 @@
+[
+  {
+    "topic": "History",
+    "question": "What year was the Declaration of Independence signed?",
+    "correct_answer": "1776",
+    "answers": ["1776", "1774", "1781", "1783"],
+    "explanation": "The Declaration was adopted by the Continental Congress on July 4, 1776, though most delegates didn't actually sign it until August 2.",
+    "hint": "It's the year that appears on every U.S. dollar bill.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "History",
+    "question": "Who assassinated Abraham Lincoln?",
+    "correct_answer": "John Wilkes Booth",
+    "answers": ["John Wilkes Booth", "Lee Harvey Oswald", "Charles Guiteau", "Leon Czolgosz"],
+    "explanation": "Booth, a well-known stage actor, shot Lincoln at Ford's Theatre in Washington on April 14, 1865 — just five days after the Civil War effectively ended.",
+    "hint": "He was a famous actor, not a politician or soldier.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "History",
+    "question": "What was the last state admitted to the Union?",
+    "correct_answer": "Hawaii",
+    "answers": ["Hawaii", "Alaska", "Arizona", "New Mexico"],
+    "explanation": "Hawaii became the 50th state on August 21, 1959 — just eight months after Alaska became the 49th.",
+    "hint": "It's the only state that is entirely made up of islands.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "History",
+    "question": "What 1803 land deal doubled the size of the United States?",
+    "correct_answer": "The Louisiana Purchase",
+    "answers": ["The Louisiana Purchase", "The Treaty of Guadalupe Hidalgo", "The Alaska Purchase", "The Adams-Onís Treaty"],
+    "explanation": "The U.S. bought 828,000 square miles from France for $15 million — roughly four cents an acre. The land stretched from the Mississippi River to the Rocky Mountains.",
+    "hint": "It's named after the territory that was purchased, which is also the name of a current U.S. state.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "History",
+    "question": "Who was president during the Cuban Missile Crisis of 1962?",
+    "correct_answer": "John F. Kennedy",
+    "answers": ["John F. Kennedy", "Lyndon B. Johnson", "Dwight D. Eisenhower", "Richard Nixon"],
+    "explanation": "For 13 days in October 1962, the U.S. and the Soviet Union stood on the brink of nuclear war after American spy planes discovered Soviet missile sites in Cuba.",
+    "hint": "He was assassinated in Dallas the following year.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "History",
+    "question": "What constitutional amendment gave women the right to vote?",
+    "correct_answer": "The 19th Amendment",
+    "answers": ["The 19th Amendment", "The 15th Amendment", "The 21st Amendment", "The 26th Amendment"],
+    "explanation": "The 19th Amendment was ratified on August 18, 1920, after a decades-long campaign by suffragists. Tennessee was the final state needed to reach the required two-thirds majority.",
+    "hint": "It's a number between 15 and 25.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "History",
+    "question": "What war was fought between the Union and the Confederacy from 1861 to 1865?",
+    "correct_answer": "The Civil War",
+    "answers": ["The Civil War", "The Revolutionary War", "The War of 1812", "The Spanish-American War"],
+    "explanation": "The Civil War killed an estimated 620,000 soldiers — more American military deaths than World War I, World War II, and the Vietnam War combined.",
+    "hint": "It divided the country along North-South lines over the issue of slavery.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "History",
+    "question": "Who was the first person to walk on the moon?",
+    "correct_answer": "Neil Armstrong",
+    "answers": ["Neil Armstrong", "Buzz Aldrin", "John Glenn", "Alan Shepard"],
+    "explanation": "Armstrong stepped onto the lunar surface on July 20, 1969, during the Apollo 11 mission. Buzz Aldrin followed him about 20 minutes later, while Michael Collins orbited above in the command module.",
+    "hint": "His famous first words on the surface began with 'That's one small step for man...'",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "History",
+    "question": "What city served as the first capital of the United States under the Constitution?",
+    "correct_answer": "New York City",
+    "answers": ["New York City", "Philadelphia", "Boston", "Washington, D.C."],
+    "explanation": "George Washington was inaugurated at Federal Hall in New York City on April 30, 1789. The capital moved to Philadelphia in 1790, then to Washington, D.C. in 1800.",
+    "hint": "It's still the largest city in the country today.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "History",
+    "question": "What event on December 7, 1941 brought the United States into World War II?",
+    "correct_answer": "The attack on Pearl Harbor",
+    "answers": ["The attack on Pearl Harbor", "The Battle of Midway", "The bombing of Hiroshima", "The invasion of Normandy"],
+    "explanation": "Japan launched a surprise air attack on the U.S. naval base at Pearl Harbor, Hawaii, killing 2,403 Americans. The next day, Congress declared war on Japan. President Roosevelt called it 'a date which will live in infamy.'",
+    "hint": "It happened at a U.S. naval base in Hawaii.",
+    "difficulty": "easy"
+  }
+]

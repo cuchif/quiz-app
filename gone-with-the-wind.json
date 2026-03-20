@@ -1,0 +1,92 @@
+[
+  {
+    "topic": "Film & TV",
+    "question": "Who plays Scarlett O'Hara in 'Gone with the Wind'?",
+    "correct_answer": "Vivien Leigh",
+    "answers": ["Vivien Leigh", "Olivia de Havilland", "Bette Davis", "Katharine Hepburn"],
+    "explanation": "Vivien Leigh was a British actress who beat out 1,400 other candidates for the role. She won the Academy Award for Best Actress for the performance.",
+    "hint": "She was British, not American, and later starred in 'A Streetcar Named Desire.'",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What is the name of the plantation where Scarlett O'Hara grows up in 'Gone with the Wind'?",
+    "correct_answer": "Tara",
+    "answers": ["Tara", "Twelve Oaks", "Belle Reve", "Donamere"],
+    "explanation": "Tara is a cotton plantation in Georgia. Scarlett's obsession with holding onto Tara drives much of the plot, especially in the second half of the film.",
+    "hint": "It's a four-letter name that's also a common Irish girl's name.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "Who does Scarlett O'Hara pine for throughout most of 'Gone with the Wind'?",
+    "correct_answer": "Ashley Wilkes",
+    "answers": ["Ashley Wilkes", "Rhett Butler", "Charles Hamilton", "Frank Kennedy"],
+    "explanation": "Scarlett is fixated on Ashley Wilkes even though he marries her cousin Melanie. Her inability to let go of Ashley is a running thread through the entire film.",
+    "hint": "His first name is used today as both a male and female name.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "Who says 'Frankly, my dear, I don't give a damn' in 'Gone with the Wind'?",
+    "correct_answer": "Rhett Butler",
+    "answers": ["Rhett Butler", "Ashley Wilkes", "Scarlett O'Hara", "Gerald O'Hara"],
+    "explanation": "Rhett says this to Scarlett in the film's final scene as he walks out on her. The line caused a stir in 1939 because the Production Code banned profanity in films, and the studio had to get special permission to keep it.",
+    "hint": "He's the male lead, played by Clark Gable.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What war serves as the backdrop for 'Gone with the Wind'?",
+    "correct_answer": "The Civil War",
+    "answers": ["The Civil War", "The Revolutionary War", "World War I", "The War of 1812"],
+    "explanation": "The film covers the years before, during, and after the Civil War, showing the destruction of the plantation South through Scarlett's eyes. The burning of Atlanta is one of the film's centerpiece sequences.",
+    "hint": "It was fought between the Union and the Confederacy in the 1860s.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "Who played Rhett Butler in 'Gone with the Wind'?",
+    "correct_answer": "Clark Gable",
+    "answers": ["Clark Gable", "Cary Grant", "Errol Flynn", "Gary Cooper"],
+    "explanation": "Gable was the only actor seriously considered for the role. Producer David O. Selznick said the public would accept no one else, and he made a deal with MGM to get him.",
+    "hint": "He was nicknamed 'The King of Hollywood.'",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "In what state is 'Gone with the Wind' set?",
+    "correct_answer": "Georgia",
+    "answers": ["Georgia", "Virginia", "South Carolina", "Alabama"],
+    "explanation": "The story takes place in and around Atlanta and the surrounding countryside. The burning and fall of Atlanta during the Civil War is a major turning point in the plot.",
+    "hint": "Atlanta is the capital of this state.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "Who wrote the novel 'Gone with the Wind'?",
+    "correct_answer": "Margaret Mitchell",
+    "answers": ["Margaret Mitchell", "Harper Lee", "Pearl S. Buck", "Edith Wharton"],
+    "explanation": "Mitchell spent ten years writing the novel, which was published in 1936. It sold a million copies in its first six months and won the Pulitzer Prize. She never published another novel.",
+    "hint": "She was from Atlanta and wrote only this one book.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What was historic about Hattie McDaniel's Academy Award for 'Gone with the Wind'?",
+    "correct_answer": "She was the first African American to win an Oscar",
+    "answers": ["She was the first African American to win an Oscar", "She was the youngest Best Supporting Actress winner", "She won both Best Actress and Best Supporting Actress", "She was the first person to win for a debut role"],
+    "explanation": "McDaniel won Best Supporting Actress for playing Mammy. At the ceremony in 1940, she was forced to sit at a segregated table in the back of the room, away from her castmates.",
+    "hint": "Her achievement broke a racial barrier at the Academy Awards.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What year was 'Gone with the Wind' released?",
+    "correct_answer": "1939",
+    "answers": ["1939", "1936", "1941", "1942"],
+    "explanation": "1939 was a stacked year for Hollywood — 'Gone with the Wind,' 'The Wizard of Oz,' 'Mr. Smith Goes to Washington,' and 'Stagecoach' all came out the same year. 'Gone with the Wind' won eight Academy Awards.",
+    "hint": "It's the same year as 'The Wizard of Oz.'",
+    "difficulty": "medium"
+  }
+]
