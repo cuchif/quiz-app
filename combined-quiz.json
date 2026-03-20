@@ -141,16 +141,16 @@
   },
   {
     "topic": "Geography",
-    "question": "What is the most visited country in the world by international tourists?",
+    "question": "What European country is home to the Eiffel Tower, the Riviera, and the Loire Valley?",
     "correct_answer": "France",
     "answers": [
       "France",
       "Spain",
-      "United States",
-      "Italy"
+      "Italy",
+      "Switzerland"
     ],
-    "explanation": "France has consistently topped global tourism rankings for decades. Beyond Paris, visitors flock to the French Riviera, Bordeaux wine country, and the Alps.",
-    "hint": "Its capital is home to the Eiffel Tower.",
+    "explanation": "The Eiffel Tower was built for the 1889 World's Fair in Paris and was originally meant to be torn down after 20 years. It's still standing because it proved useful as a radio transmission tower.",
+    "hint": "This country is famous for its wine, cheese, and a tower built in 1889.",
     "difficulty": "easy"
   },
   {
@@ -233,7 +233,7 @@
       "Philippines",
       "Fiji"
     ],
-    "explanation": "The Great Barrier Reef stretches over 1,400 miles off the northeast coast of Australia. It's the largest coral reef system on Earth and is visible from space.",
+    "explanation": "The Great Barrier Reef stretches over 1,400 miles off the northeast coast of Australia. It contains over 2,900 individual reef systems and 900 islands.",
     "hint": "This country is both a continent and a country.",
     "difficulty": "easy"
   },
@@ -303,7 +303,7 @@
       "Belle Reve",
       "Donamere"
     ],
-    "explanation": "Tara is a cotton plantation in Georgia. Scarlett's obsession with holding onto Tara drives much of the plot, especially in the second half of the film.",
+    "explanation": "Tara is a cotton plantation in Georgia. The facade used in the film was not a real building — it was a painted flat built on a studio backlot in Los Angeles.",
     "hint": "It's a four-letter name that's also a common Irish girl's name.",
     "difficulty": "easy"
   },
@@ -317,7 +317,7 @@
       "Charles Hamilton",
       "Frank Kennedy"
     ],
-    "explanation": "Scarlett is fixated on Ashley Wilkes even though he marries her cousin Melanie. Her inability to let go of Ashley is a running thread through the entire film.",
+    "explanation": "Scarlett is fixated on Ashley Wilkes even though he marries her cousin Melanie. Scarlett herself marries three times during the film — none of them to Ashley.",
     "hint": "His first name is used today as both a male and female name.",
     "difficulty": "medium"
   },
@@ -345,7 +345,7 @@
       "World War I",
       "The War of 1812"
     ],
-    "explanation": "The film covers the years before, during, and after the Civil War, showing the destruction of the plantation South through Scarlett's eyes. The burning of Atlanta is one of the film's centerpiece sequences.",
+    "explanation": "The film covers the years before, during, and after the Civil War, showing the destruction of the plantation South through Scarlett's eyes.",
     "hint": "It was fought between the Union and the Confederacy in the 1860s.",
     "difficulty": "easy"
   },
@@ -373,7 +373,7 @@
       "South Carolina",
       "Alabama"
     ],
-    "explanation": "The story takes place in and around Atlanta and the surrounding countryside. The burning and fall of Atlanta during the Civil War is a major turning point in the plot.",
+    "explanation": "The story takes place in and around Atlanta, Georgia. The film was actually shot entirely in California, though a second unit filmed background footage in the South.",
     "hint": "Atlanta is the capital of this state.",
     "difficulty": "easy"
   },
