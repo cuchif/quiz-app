@@ -1,0 +1,702 @@
+[
+  {
+    "topic": "Film & TV",
+    "question": "What is the name of Dorothy's dog in The Wizard of Oz?",
+    "correct_answer": "Toto",
+    "explanation": "Toto is Dorothy's cairn terrier, who follows her all the way to Oz. The dog who played Toto was a female cairn terrier named Terry, who earned $125 a week — more than many of the human actors on set.",
+    "hint": "His name is a short, two-syllable word — and it rhymes with 'photo.'",
+    "difficulty": "easy",
+    "answers": [
+      "Rex",
+      "Buddy",
+      "Sparky",
+      "Toto"
+    ]
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What state does Dorothy live in before being transported to Oz?",
+    "correct_answer": "Kansas",
+    "explanation": "Dorothy lives on a dusty Kansas farm with her Aunt Em and Uncle Henry. The filmmakers shot all the Kansas scenes in sepia tone, so the transition to full Technicolor when Dorothy opens the door to Oz was deliberately designed to shock audiences.",
+    "hint": "It's a Midwestern state known for flat prairies and tornadoes.",
+    "difficulty": "easy",
+    "answers": [
+      "Iowa",
+      "Kansas",
+      "Oklahoma",
+      "Nebraska"
+    ]
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What color are Dorothy's iconic slippers in the 1939 film The Wizard of Oz?",
+    "correct_answer": "Ruby red",
+    "explanation": "In L. Frank Baum's novel, the slippers were silver. The filmmakers swapped them to ruby red to take advantage of the then-new Technicolor process. A surviving pair sold at auction in 2023 for $28 million.",
+    "hint": "They were a different color in the original novel but were changed to look striking in Technicolor.",
+    "difficulty": "easy",
+    "answers": [
+      "Silver",
+      "Ruby red",
+      "Emerald green",
+      "Gold"
+    ]
+  },
+  {
+    "topic": "Film & TV",
+    "question": "Who played Dorothy Gale in the 1939 film The Wizard of Oz?",
+    "correct_answer": "Judy Garland",
+    "explanation": "Judy Garland was just 16 when she landed the role of Dorothy — beating out Shirley Temple, who was the studio's first choice. The film made Garland a star overnight.",
+    "hint": "This actress is also famous for performing at Carnegie Hall and is Liza Minnelli's mother.",
+    "difficulty": "easy",
+    "answers": [
+      "Shirley Temple",
+      "Ginger Rogers",
+      "Deanna Durbin",
+      "Judy Garland"
+    ]
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What does the Scarecrow want from the Wizard of Oz?",
+    "correct_answer": "A brain",
+    "explanation": "The Scarecrow constantly solves problems and comes up with plans throughout the journey — all while insisting he can't think without a brain. The film plays his self-doubt for both comedy and pathos.",
+    "hint": "He thinks he's not smart enough — he wants something inside his head.",
+    "difficulty": "easy",
+    "answers": [
+      "A heart",
+      "A home",
+      "A brain",
+      "Courage"
+    ]
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What does the Tin Man want from the Wizard of Oz?",
+    "correct_answer": "A heart",
+    "explanation": "The Tin Man weeps so often during the journey that his tears cause him to rust shut. He spends the film longing for a heart he arguably already has.",
+    "hint": "He wants the ability to feel emotions and love.",
+    "difficulty": "easy",
+    "answers": [
+      "A heart",
+      "A brain",
+      "A soul",
+      "Courage"
+    ]
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What does the Cowardly Lion want from the Wizard of Oz?",
+    "correct_answer": "Courage",
+    "explanation": "The Cowardly Lion trembles and hides at every threat, but repeatedly steps forward to protect Dorothy when it counts — charging at enemies despite his visible terror.",
+    "hint": "He's afraid of everything and wants to stop being scared.",
+    "difficulty": "easy",
+    "answers": [
+      "Courage",
+      "A brain",
+      "A heart",
+      "Strength"
+    ]
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What is the name of the Good Witch who greets Dorothy in Munchkinland?",
+    "correct_answer": "Glinda",
+    "explanation": "Glinda descends in a shimmering pink bubble and gives Dorothy the ruby slippers — setting the entire adventure in motion. Billie Burke, who played Glinda, was 53 years old at the time of filming.",
+    "hint": "She arrives floating in a pink bubble and her name rhymes with 'Linda.'",
+    "difficulty": "medium",
+    "answers": [
+      "Galinda",
+      "Locasta",
+      "Elphaba",
+      "Glinda"
+    ]
+  },
+  {
+    "topic": "Film & TV",
+    "question": "How does Dorothy defeat the Wicked Witch of the West in The Wizard of Oz?",
+    "correct_answer": "She throws a bucket of water on her",
+    "explanation": "Dorothy didn't mean to kill anyone — she was just trying to save the Scarecrow from catching fire. The water happened to splash on the Witch, who dissolved on the spot.",
+    "hint": "The Witch's weakness is a very common liquid.",
+    "difficulty": "easy",
+    "answers": [
+      "She drops a house on her",
+      "She throws a bucket of water on her",
+      "She tricks her into a trap",
+      "She uses the ruby slippers' magic"
+    ]
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What famous song does Dorothy sing on the farm in Kansas in The Wizard of Oz?",
+    "correct_answer": "Over the Rainbow",
+    "explanation": "The studio nearly cut 'Over the Rainbow' from the film — executives thought it slowed the picture down. It went on to win the Academy Award for Best Original Song in 1940 and became Judy Garland's signature for life.",
+    "hint": "The song is about wishing for a better place that exists beyond a colorful weather phenomenon.",
+    "difficulty": "easy",
+    "answers": [
+      "Over the Rainbow",
+      "If I Only Had a Brain",
+      "We're Off to See the Wizard",
+      "Ding-Dong! The Witch Is Dead"
+    ]
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What must Dorothy follow to reach the Emerald City in The Wizard of Oz?",
+    "correct_answer": "The Yellow Brick Road",
+    "explanation": "The Yellow Brick Road winds from Munchkinland all the way to the Emerald City. The original set required so much yellow paint that the studio had to place a special bulk order.",
+    "hint": "It's a road made of a specific colored building material.",
+    "difficulty": "easy",
+    "answers": [
+      "The Golden Path",
+      "The Yellow Brick Road",
+      "The Rainbow Bridge",
+      "The Emerald Trail"
+    ]
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What natural disaster transports Dorothy to the Land of Oz?",
+    "correct_answer": "A tornado",
+    "explanation": "A Kansas tornado rips Dorothy's farmhouse off its foundation and hurls it into the sky. It crashes down in Munchkinland — right on top of the Wicked Witch of the East, killing her instantly.",
+    "hint": "It's a violent rotating column of air common in the Midwest.",
+    "difficulty": "easy",
+    "answers": [
+      "A hurricane",
+      "An earthquake",
+      "A tornado",
+      "A flood"
+    ]
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What does Dorothy say while clicking her heels to return home in The Wizard of Oz?",
+    "correct_answer": "There's no place like home",
+    "explanation": "Glinda tells Dorothy to click her ruby slippers' heels together three times while repeating this phrase — a moment so famous it has been parodied and quoted countless times since 1939.",
+    "hint": "It's a five-word phrase that expresses how special one's own home is.",
+    "difficulty": "easy",
+    "answers": [
+      "I wish to go home",
+      "There's no place like home",
+      "Bring me home to Auntie Em",
+      "Take me back to Kansas"
+    ]
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What event do the Munchkins celebrate when Dorothy first arrives in Oz?",
+    "correct_answer": "The death of the Wicked Witch of the East",
+    "explanation": "Dorothy's falling house crushed the Wicked Witch of the East, and the Munchkins — who had lived under her rule — broke into song and celebration the moment they learned she was dead.",
+    "hint": "Dorothy's house landed on someone very unpopular.",
+    "difficulty": "medium",
+    "answers": [
+      "Dorothy's arrival from Kansas",
+      "The Wizard's birthday",
+      "The death of the Wicked Witch of the East",
+      "The beginning of a festival"
+    ]
+  },
+  {
+    "topic": "Film & TV",
+    "question": "Who wrote the original 1900 novel The Wonderful Wizard of Oz?",
+    "correct_answer": "L. Frank Baum",
+    "explanation": "Baum was a traveling salesman and amateur playwright before publishing The Wonderful Wizard of Oz in 1900. The book was a bestseller, and he went on to write 13 more Oz novels.",
+    "hint": "He was an American author who also wrote 13 sequels set in the same magical land.",
+    "difficulty": "medium",
+    "answers": [
+      "L. Frank Baum",
+      "Rudyard Kipling",
+      "J.M. Barrie",
+      "Lewis Carroll"
+    ]
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What type of flower-filled field puts Dorothy and her friends to sleep on the way to the Emerald City?",
+    "correct_answer": "A field of poppies",
+    "explanation": "The Wicked Witch conjures a vast field of enchanted poppies to stop Dorothy from reaching the Emerald City. The narcotic scent knocks out Dorothy, Toto, and the Lion — only Glinda's snowfall breaks the spell.",
+    "hint": "This red flower is associated with sleep and is also linked to opium.",
+    "difficulty": "medium",
+    "answers": [
+      "A field of poppies",
+      "A field of lavender",
+      "A field of lilies",
+      "A field of roses"
+    ]
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What token does the Wizard give the Scarecrow as a substitute for a brain?",
+    "correct_answer": "A diploma",
+    "explanation": "The Wizard hands the Scarecrow a diploma and tells him that plenty of people with brains have nothing more to show for it. The Scarecrow then recites a (mangled) version of the Pythagorean theorem.",
+    "hint": "It's a document typically received upon graduating from a university.",
+    "difficulty": "medium",
+    "answers": [
+      "A diploma",
+      "A thinking cap",
+      "A book",
+      "A pair of glasses"
+    ]
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What does the Wizard give the Cowardly Lion as a symbol of courage?",
+    "correct_answer": "A medal",
+    "explanation": "The Wizard pins a medal on the Lion's chest — the Triple Cross — and declares him brave. The Lion immediately stands taller and stops shaking.",
+    "hint": "It's a small metal award typically pinned to one's chest for valor.",
+    "difficulty": "medium",
+    "answers": [
+      "A crown",
+      "A medal",
+      "A sword",
+      "A shield"
+    ]
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What does the Wizard give the Tin Man as a substitute for a heart?",
+    "correct_answer": "A heart-shaped clock",
+    "explanation": "The Wizard places a ticking, heart-shaped clock inside the Tin Man's chest so he can finally hear a heartbeat. The Tin Man immediately begins to cry — and has to be reminded not to rust.",
+    "hint": "It's a ticking device shaped like the organ he desires.",
+    "difficulty": "hard",
+    "answers": [
+      "A heart-shaped clock",
+      "A locket",
+      "A red gemstone",
+      "A valentine card"
+    ]
+  },
+  {
+    "topic": "Film & TV",
+    "question": "Which actress played the Wicked Witch of the West in the 1939 Wizard of Oz film?",
+    "correct_answer": "Margaret Hamilton",
+    "explanation": "Margaret Hamilton has terrified generations of children as the Wicked Witch — but nearly didn't survive the role. She suffered serious burns when a fiery trapdoor stunt went wrong on set.",
+    "hint": "She shares her last name with a famous American founding father who was also the subject of a Broadway musical.",
+    "difficulty": "hard",
+    "answers": [
+      "Clara Blandick",
+      "Margaret Hamilton",
+      "Billie Burke",
+      "Charley Grapewin"
+    ]
+  },
+  {
+    "topic": "Politics",
+    "question": "What number president of the United States was Donald Trump in his first term?",
+    "correct_answer": "45th",
+    "explanation": "Trump made history as the first president since Grover Cleveland to serve two non-consecutive terms — the 45th president from 2017 to 2021, then the 47th starting in 2025.",
+    "hint": "He was preceded by Barack Obama (44th) and succeeded by Joe Biden (46th) in his first term.",
+    "difficulty": "easy",
+    "answers": [
+      "45th",
+      "43rd",
+      "46th",
+      "44th"
+    ]
+  },
+  {
+    "topic": "Politics",
+    "question": "Who served as Vice President during Trump's first term from 2017 to 2021?",
+    "correct_answer": "Mike Pence",
+    "explanation": "Mike Pence went from the Indiana governor's mansion to the vice presidency in 2017. His relationship with Trump deteriorated sharply after the events of January 6, 2021.",
+    "hint": "He was previously the Governor of Indiana.",
+    "difficulty": "easy",
+    "answers": [
+      "Rex Tillerson",
+      "JD Vance",
+      "Mike Pence",
+      "Mike Pompeo"
+    ]
+  },
+  {
+    "topic": "Politics",
+    "question": "What was the name of Trump's signature tax legislation signed into law in December 2017?",
+    "correct_answer": "The Tax Cuts and Jobs Act",
+    "explanation": "The Tax Cuts and Jobs Act slashed the corporate tax rate nearly in half — from 35% down to 21% — and reshuffled individual tax brackets. It was the biggest overhaul of the U.S. tax code in three decades.",
+    "hint": "The name directly references both reducing taxes and employment.",
+    "difficulty": "medium",
+    "answers": [
+      "The Fair Tax Reform Act",
+      "The American Tax Relief Act",
+      "The Tax Cuts and Jobs Act",
+      "The Economic Growth and Recovery Act"
+    ]
+  },
+  {
+    "topic": "Politics",
+    "question": "Who was the first Supreme Court justice Donald Trump appointed during his first term?",
+    "correct_answer": "Neil Gorsuch",
+    "explanation": "Neil Gorsuch filled the seat left empty after Antonin Scalia's death — a vacancy that had become a political firestorm when the Senate refused to hold hearings for Obama's nominee, Merrick Garland. Trump later added Kavanaugh in 2018 and Barrett in 2020.",
+    "hint": "He filled the seat of Antonin Scalia and was confirmed in April 2017.",
+    "difficulty": "medium",
+    "answers": [
+      "Neil Gorsuch",
+      "Merrick Garland",
+      "Amy Coney Barrett",
+      "Brett Kavanaugh"
+    ]
+  },
+  {
+    "topic": "Politics",
+    "question": "Which country did Trump's trade war primarily target during his first term?",
+    "correct_answer": "China",
+    "explanation": "Trump launched a tariff war with China in 2018, slapping duties on hundreds of billions of dollars in Chinese goods. Beijing fired back with retaliatory tariffs, and the standoff rattled global markets for years.",
+    "hint": "It's the world's second-largest economy and a major manufacturing hub.",
+    "difficulty": "easy",
+    "answers": [
+      "China",
+      "Germany",
+      "Canada",
+      "Mexico"
+    ]
+  },
+  {
+    "topic": "Politics",
+    "question": "What was Trump's executive order restricting entry from several majority-Muslim countries commonly called?",
+    "correct_answer": "The travel ban",
+    "explanation": "The executive order, signed in Trump's first week in office, immediately threw airports into chaos as travelers were detained and protests erupted nationwide. It went through multiple legal challenges before the Supreme Court upheld a revised version.",
+    "hint": "Critics used a two-word phrase with the word 'ban' in it to describe it.",
+    "difficulty": "easy",
+    "answers": [
+      "The immigration freeze",
+      "The border wall order",
+      "The travel ban",
+      "The visa moratorium"
+    ]
+  },
+  {
+    "topic": "Politics",
+    "question": "Who served as Trump's first Attorney General?",
+    "correct_answer": "Jeff Sessions",
+    "explanation": "Jeff Sessions was one of Trump's earliest political allies — the first sitting senator to endorse his 2016 campaign. But his decision to recuse himself from the Russia investigation infuriated Trump, and he was forced out in November 2018.",
+    "hint": "He was a U.S. Senator from Alabama who recused himself from the Russia investigation.",
+    "difficulty": "medium",
+    "answers": [
+      "Rod Rosenstein",
+      "Jeff Sessions",
+      "Jeff Flake",
+      "William Barr"
+    ]
+  },
+  {
+    "topic": "Politics",
+    "question": "For what was Donald Trump first impeached in December 2019?",
+    "correct_answer": "Abuse of power and obstruction of Congress",
+    "explanation": "It all came down to a phone call. Trump pressed Ukraine's President Zelensky to investigate Joe Biden, and when a whistleblower flagged the call, Congress moved to impeach. Trump was acquitted by the Senate in February 2020.",
+    "hint": "It involved a phone call with the president of Ukraine.",
+    "difficulty": "medium",
+    "answers": [
+      "Abuse of power and obstruction of Congress",
+      "Obstruction of justice and perjury",
+      "Incitement of insurrection",
+      "Bribery and extortion"
+    ]
+  },
+  {
+    "topic": "Politics",
+    "question": "What international climate accord did Trump withdraw the United States from during his first term?",
+    "correct_answer": "The Paris Agreement",
+    "explanation": "Trump pulled out of the Paris Agreement in June 2017, calling it a bad deal for American workers. The move drew global criticism and made the U.S. one of only a handful of nations outside the accord. The withdrawal took effect in November 2020.",
+    "hint": "The agreement is named after the French capital where it was negotiated in 2015.",
+    "difficulty": "easy",
+    "answers": [
+      "The Paris Agreement",
+      "The Montreal Protocol",
+      "The Copenhagen Accord",
+      "The Kyoto Protocol"
+    ]
+  },
+  {
+    "topic": "Politics",
+    "question": "Who is Trump's Vice President in his second term beginning in 2025?",
+    "correct_answer": "JD Vance",
+    "explanation": "JD Vance went from writing Hillbilly Elegy — a memoir about growing up poor in Appalachia — to the U.S. Senate, and then to the vice presidency. Trump tapped him as his running mate for 2024.",
+    "hint": "He is a U.S. Senator from Ohio who wrote a bestselling memoir about Appalachian life.",
+    "difficulty": "easy",
+    "answers": [
+      "Vivek Ramaswamy",
+      "Ron DeSantis",
+      "Mike Pence",
+      "JD Vance"
+    ]
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "In which Broadway musical does a young orphan girl sing 'Tomorrow'?",
+    "correct_answer": "Annie",
+    "answers": [
+      "Oliver!",
+      "Annie",
+      "Matilda",
+      "Les Misérables"
+    ],
+    "explanation": "Annie, based on the Depression-era comic strip Little Orphan Annie, opened on Broadway in 1977. 'Tomorrow' became so widely known that it has been performed by everyone from presidents to pop stars.",
+    "hint": "The show is named after the main character, a red-haired orphan.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which musical features the song 'Memory' sung by the character Grizabella?",
+    "correct_answer": "Cats",
+    "answers": [
+      "Phantom of the Opera",
+      "Cats",
+      "Evita",
+      "Chicago"
+    ],
+    "explanation": "Cats, composed by Andrew Lloyd Webber and based on T.S. Eliot's poetry, opened on Broadway in 1982. 'Memory' became one of the most recorded songs in history.",
+    "hint": "The show is based on T.S. Eliot poems about a specific type of animal.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which Broadway musical tells the story of a Founding Father through hip-hop and R&B music?",
+    "correct_answer": "Hamilton",
+    "answers": [
+      "Hamilton",
+      "1776",
+      "Bloody Bloody Andrew Jackson",
+      "Suffs"
+    ],
+    "explanation": "Lin-Manuel Miranda came up with the idea for Hamilton after picking up Ron Chernow's biography on vacation. The show opened on Broadway in 2015 and swept 11 Tony Awards — the most of any show that season.",
+    "hint": "It's named after a Founding Father whose face is on the $10 bill.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "In 'The Phantom of the Opera,' what is the Phantom's real first name?",
+    "correct_answer": "Erik",
+    "answers": [
+      "Charles",
+      "Raoul",
+      "Erik",
+      "Gustav"
+    ],
+    "explanation": "The Phantom's name is Erik, as established in Gaston Leroux's original 1910 novel. The musical by Andrew Lloyd Webber became the longest-running show in Broadway history.",
+    "hint": "It's a four-letter Scandinavian name also shared by a famous Viking explorer.",
+    "difficulty": "hard"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which Rodgers and Hammerstein show is set in the hills of Austria?",
+    "correct_answer": "The Sound of Music",
+    "answers": [
+      "The Sound of Music",
+      "Oklahoma!",
+      "Carousel",
+      "The King and I"
+    ],
+    "explanation": "The Sound of Music, based on the memoir of Maria von Trapp, opened on Broadway in 1959 and was adapted into the 1965 film, which became the highest-grossing movie of that year.",
+    "hint": "Maria is a novice who becomes a governess to a large family.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which musical features the characters Elphaba and Glinda?",
+    "correct_answer": "Wicked",
+    "answers": [
+      "Wicked",
+      "Into the Woods",
+      "The Wizard of Oz",
+      "Frozen"
+    ],
+    "explanation": "Wicked, which opened on Broadway in 2003, is based on Gregory Maguire's novel and tells the backstory of the witches from The Wizard of Oz.",
+    "hint": "It's a prequel to a famous story about the Land of Oz.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which Stephen Sondheim musical is set in a barbershop on Fleet Street in London?",
+    "correct_answer": "Sweeney Todd",
+    "answers": [
+      "Into the Woods",
+      "Sweeney Todd",
+      "Company",
+      "A Little Night Music"
+    ],
+    "explanation": "Sweeney Todd: The Demon Barber of Fleet Street opened on Broadway in 1979 and tells the story of a vengeful barber and his accomplice Mrs. Lovett.",
+    "hint": "The title character is a barber who seeks revenge.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "In 'West Side Story,' which two rival gangs are in conflict?",
+    "correct_answer": "The Jets and the Sharks",
+    "answers": [
+      "The Jets and the Sharks",
+      "The Bloods and the Crips",
+      "The Royals and the Eagles",
+      "The Kings and the Cobras"
+    ],
+    "explanation": "West Side Story, inspired by Romeo and Juliet, features the white Jets and the Puerto Rican Sharks. It opened on Broadway in 1957 with music by Leonard Bernstein.",
+    "hint": "One gang is named after a type of aircraft, the other after an ocean predator.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which musical features the song 'Don't Cry for Me Argentina'?",
+    "correct_answer": "Evita",
+    "answers": [
+      "Chicago",
+      "Evita",
+      "Kiss of the Spider Woman",
+      "West Side Story"
+    ],
+    "explanation": "Evita traces the meteoric rise of Eva Perón from poverty to political power in Argentina. Andrew Lloyd Webber and Tim Rice wrote the score, and the show opened on Broadway in 1979.",
+    "hint": "The show is about the wife of an Argentine president.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which musical is based on Victor Hugo's novel about Jean Valjean?",
+    "correct_answer": "Les Misérables",
+    "answers": [
+      "Les Misérables",
+      "The Hunchback of Notre Dame",
+      "Phantom of the Opera",
+      "Sweeney Todd"
+    ],
+    "explanation": "Les Misérables opened on Broadway in 1987 and is one of the longest-running musicals in history, featuring songs like 'I Dreamed a Dream' and 'One Day More.'",
+    "hint": "The title is French and translates to 'The Miserable Ones.'",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "What year did 'A Chorus Line' originally open on Broadway?",
+    "correct_answer": "1975",
+    "answers": [
+      "1975",
+      "1969",
+      "1982",
+      "1971"
+    ],
+    "explanation": "A Chorus Line opened on Broadway in 1975 at the Shubert Theatre. It held the record for longest-running Broadway show for nearly a decade.",
+    "hint": "It was in the mid-1970s, the same decade as Jaws and Star Wars.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Who composed the music for 'West Side Story'?",
+    "correct_answer": "Leonard Bernstein",
+    "answers": [
+      "Stephen Sondheim",
+      "Leonard Bernstein",
+      "Richard Rodgers",
+      "Cole Porter"
+    ],
+    "explanation": "Leonard Bernstein composed the score, while Stephen Sondheim wrote the lyrics. It was Sondheim's first Broadway show as a lyricist.",
+    "hint": "This famous conductor and composer shares his first name with a certain Mr. Nimoy.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which musical features the song 'Seasons of Love' and its famous opening line about 525,600 minutes?",
+    "correct_answer": "Rent",
+    "answers": [
+      "Rent",
+      "Spring Awakening",
+      "Tick, Tick... Boom!",
+      "Hair"
+    ],
+    "explanation": "Rent, by Jonathan Larson, opened on Broadway in 1996. It's a rock musical loosely based on Puccini's opera La Bohème, set in New York's East Village.",
+    "hint": "The title is something you pay to your landlord every month.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "In 'Chicago,' what crime does Roxie Hart commit?",
+    "correct_answer": "Murder",
+    "answers": [
+      "Robbery",
+      "Murder",
+      "Fraud",
+      "Arson"
+    ],
+    "explanation": "Roxie Hart fatally shoots her lover Fred Casely, then rides the ensuing media circus to celebrity status. The musical skewers how tabloid culture can turn a killer into a star.",
+    "hint": "She shoots someone — the most serious crime there is.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which Stephen Sondheim musical weaves together several Brothers Grimm fairy tales into a single story?",
+    "correct_answer": "Into the Woods",
+    "answers": [
+      "Into the Woods",
+      "Sunday in the Park with George",
+      "Sweeney Todd",
+      "A Little Night Music"
+    ],
+    "explanation": "Into the Woods, which opened on Broadway in 1987, intertwines the stories of Cinderella, Jack and the Beanstalk, Little Red Riding Hood, and Rapunzel.",
+    "hint": "The title describes going deep into a forest.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which Rodgers and Hammerstein musical features the songs 'Oh, What a Beautiful Mornin' and 'The Surrey with the Fringe on Top'?",
+    "correct_answer": "Oklahoma!",
+    "answers": [
+      "Carousel",
+      "Oklahoma!",
+      "South Pacific",
+      "State Fair"
+    ],
+    "explanation": "Oklahoma! opened on Broadway in 1943 and was the first collaboration between Richard Rodgers and Oscar Hammerstein II. It was the first Broadway musical to have its songs released as a cast album.",
+    "hint": "The show is named after a U.S. state that became the 46th to join the Union.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Who wrote the book, music, and lyrics for 'Hamilton'?",
+    "correct_answer": "Lin-Manuel Miranda",
+    "answers": [
+      "Lin-Manuel Miranda",
+      "Jonathan Larson",
+      "Stephen Schwartz",
+      "Jason Robert Brown"
+    ],
+    "explanation": "Lin-Manuel Miranda wrote the book, music, and lyrics, and also originated the title role. He was inspired after reading Ron Chernow's biography of Alexander Hamilton.",
+    "hint": "He also created the musical In the Heights.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "In 'Grease,' what is the name of the high school where the story takes place?",
+    "correct_answer": "Rydell High",
+    "answers": [
+      "Rydell High",
+      "Baxter High",
+      "West Beverly High",
+      "Shermer High"
+    ],
+    "explanation": "Grease is set at the fictional Rydell High School in Chicago in 1959. The original Broadway production opened in 1972.",
+    "hint": "The school's name rhymes with a famous guitar brand.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which musical features a giant chandelier that crashes onto the stage?",
+    "correct_answer": "The Phantom of the Opera",
+    "answers": [
+      "Les Misérables",
+      "The Phantom of the Opera",
+      "Sunset Boulevard",
+      "Miss Saigon"
+    ],
+    "explanation": "The chandelier crash became the show's signature spectacle — audiences gasped at it nightly for 35 years. The Phantom of the Opera opened on Broadway in 1988 and ran until 2023, longer than any other show.",
+    "hint": "The show takes place in a Paris opera house and the title character wears a mask.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which musical by Trey Parker and Matt Stone satirizes religion through the story of two young missionaries sent to Uganda?",
+    "correct_answer": "The Book of Mormon",
+    "answers": [
+      "The Book of Mormon",
+      "Avenue Q",
+      "Spamalot",
+      "Something Rotten!"
+    ],
+    "explanation": "Trey Parker, Matt Stone, and Robert Lopez — the team behind South Park and Avenue Q — joined forces to create The Book of Mormon, which opened on Broadway in 2011 and took home 9 Tony Awards.",
+    "hint": "The creators are famous for a long-running animated TV show about four boys in Colorado.",
+    "difficulty": "medium"
+  }
+]

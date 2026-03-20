@@ -1,0 +1,182 @@
+[
+  {
+    "topic": "Film & TV",
+    "question": "What is the name of Dorothy's dog in The Wizard of Oz?",
+    "correct_answer": "Toto",
+    "incorrect_answers": ["Buddy", "Rex", "Sparky"],
+    "explanation": "Toto is Dorothy's loyal cairn terrier who accompanies her to the Land of Oz. The dog was played by a female cairn terrier named Terry.",
+    "hint": "His name is a short, two-syllable word that starts with T.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What state does Dorothy live in before being transported to Oz?",
+    "correct_answer": "Kansas",
+    "incorrect_answers": ["Nebraska", "Oklahoma", "Iowa"],
+    "explanation": "Dorothy lives on a farm in Kansas with her Aunt Em and Uncle Henry. The Kansas scenes were filmed in sepia tone.",
+    "hint": "It's a Midwestern state known for flat prairies and tornadoes.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What color are Dorothy's iconic slippers in the 1939 film The Wizard of Oz?",
+    "correct_answer": "Ruby red",
+    "incorrect_answers": ["Silver", "Gold", "Emerald green"],
+    "explanation": "The slippers were changed from silver (in the book) to ruby red for the film to take advantage of the new Technicolor process.",
+    "hint": "They were a different color in the original novel but changed to look striking in Technicolor.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "Who played Dorothy Gale in the 1939 film The Wizard of Oz?",
+    "correct_answer": "Judy Garland",
+    "incorrect_answers": ["Shirley Temple", "Deanna Durbin", "Ginger Rogers"],
+    "explanation": "Judy Garland was 16 years old when she starred as Dorothy. The role launched her to stardom.",
+    "hint": "This actress is also famous for performing at Carnegie Hall and is Liza Minnelli's mother.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What does the Scarecrow want from the Wizard of Oz?",
+    "correct_answer": "A brain",
+    "incorrect_answers": ["A heart", "Courage", "A home"],
+    "explanation": "The Scarecrow believes he is unintelligent because he is stuffed with straw, though he proves to be quite clever throughout the journey.",
+    "hint": "He thinks he's not smart enough — he wants something inside his head.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What does the Tin Man want from the Wizard of Oz?",
+    "correct_answer": "A heart",
+    "incorrect_answers": ["A brain", "Courage", "A soul"],
+    "explanation": "The Tin Man believes he cannot love without a heart, yet he is the most emotional and compassionate of Dorothy's companions.",
+    "hint": "He wants the ability to feel emotions and love.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What does the Cowardly Lion want from the Wizard of Oz?",
+    "correct_answer": "Courage",
+    "incorrect_answers": ["A brain", "A heart", "Strength"],
+    "explanation": "Despite calling himself cowardly, the Lion repeatedly shows bravery when his friends are in danger throughout the film.",
+    "hint": "He's afraid of everything and wants to stop being scared.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What is the name of the Good Witch who greets Dorothy in Munchkinland?",
+    "correct_answer": "Glinda",
+    "incorrect_answers": ["Galinda", "Elphaba", "Locasta"],
+    "explanation": "Glinda the Good Witch of the North arrives in a pink bubble and gives Dorothy the ruby slippers.",
+    "hint": "Her name starts with G and she arrives floating in a bubble.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "How does Dorothy defeat the Wicked Witch of the West in The Wizard of Oz?",
+    "correct_answer": "She throws a bucket of water on her",
+    "incorrect_answers": ["She drops a house on her", "She uses the ruby slippers' magic", "She tricks her into a trap"],
+    "explanation": "Dorothy throws water to put out a fire on the Scarecrow, accidentally splashing the Witch and causing her to melt.",
+    "hint": "The Witch's weakness is a very common liquid.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What famous song does Dorothy sing on the farm in Kansas in The Wizard of Oz?",
+    "correct_answer": "Over the Rainbow",
+    "incorrect_answers": ["Ding-Dong! The Witch Is Dead", "We're Off to See the Wizard", "If I Only Had a Brain"],
+    "explanation": "\"Over the Rainbow\" won the Academy Award for Best Original Song in 1940 and became Judy Garland's signature song.",
+    "hint": "The song is about wishing for a better place that exists beyond a colorful weather phenomenon.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What must Dorothy follow to reach the Emerald City in The Wizard of Oz?",
+    "correct_answer": "The Yellow Brick Road",
+    "incorrect_answers": ["The Golden Path", "The Emerald Trail", "The Rainbow Bridge"],
+    "explanation": "The Yellow Brick Road starts in Munchkinland and winds through Oz to the Emerald City where the Wizard resides.",
+    "hint": "It's a road made of a specific colored building material.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What natural disaster transports Dorothy to the Land of Oz?",
+    "correct_answer": "A tornado",
+    "incorrect_answers": ["A hurricane", "A flood", "An earthquake"],
+    "explanation": "A Kansas tornado lifts Dorothy's farmhouse into the air and deposits it in Munchkinland, landing on the Wicked Witch of the East.",
+    "hint": "It's a violent rotating column of air common in the Midwest.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What does Dorothy say while clicking her heels to return home in The Wizard of Oz?",
+    "correct_answer": "There's no place like home",
+    "incorrect_answers": ["Take me back to Kansas", "I wish to go home", "Bring me home to Auntie Em"],
+    "explanation": "Glinda instructs Dorothy to click her ruby slippers' heels together three times while repeating this phrase.",
+    "hint": "It's a five-word phrase that expresses how special one's own home is.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What event do the Munchkins celebrate when Dorothy first arrives in Oz?",
+    "correct_answer": "The death of the Wicked Witch of the East",
+    "incorrect_answers": ["Dorothy's arrival from Kansas", "The beginning of a festival", "The Wizard's birthday"],
+    "explanation": "Dorothy's house landed on and killed the Wicked Witch of the East, freeing the Munchkins from her oppression.",
+    "hint": "Dorothy's house landed on someone very unpopular.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "Who wrote the original 1900 novel The Wonderful Wizard of Oz?",
+    "correct_answer": "L. Frank Baum",
+    "incorrect_answers": ["Lewis Carroll", "J.M. Barrie", "Rudyard Kipling"],
+    "explanation": "Lyman Frank Baum published The Wonderful Wizard of Oz in 1900 and went on to write 13 sequel Oz novels.",
+    "hint": "His first name initial is L and his last name starts with B.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What type of flower-filled field puts Dorothy and her friends to sleep on the way to the Emerald City?",
+    "correct_answer": "A field of poppies",
+    "incorrect_answers": ["A field of roses", "A field of lilies", "A field of lavender"],
+    "explanation": "The Wicked Witch conjures a field of enchanted poppies whose scent causes Dorothy, Toto, and the Lion to fall asleep.",
+    "hint": "This red flower is associated with sleep and is also linked to opium.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What token does the Wizard give the Scarecrow as a substitute for a brain?",
+    "correct_answer": "A diploma",
+    "incorrect_answers": ["A book", "A pair of glasses", "A thinking cap"],
+    "explanation": "The Wizard gives the Scarecrow a diploma, telling him that many people with brains have no more than a diploma to show for it.",
+    "hint": "It's a document typically received upon graduating from a university.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What does the Wizard give the Cowardly Lion as a symbol of courage?",
+    "correct_answer": "A medal",
+    "incorrect_answers": ["A sword", "A shield", "A crown"],
+    "explanation": "The Wizard presents the Lion with a medal for bravery, specifically the Triple Cross, telling him it represents courage.",
+    "hint": "It's a small metal award typically pinned to one's chest for valor.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What does the Wizard give the Tin Man as a substitute for a heart?",
+    "correct_answer": "A heart-shaped clock",
+    "incorrect_answers": ["A red gemstone", "A valentine card", "A locket"],
+    "explanation": "The Wizard gives the Tin Man a ticking heart-shaped clock to put inside his chest so he can hear it beating.",
+    "hint": "It's a ticking device shaped like the organ he desires.",
+    "difficulty": "hard"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "Which actress played the Wicked Witch of the West in the 1939 Wizard of Oz film?",
+    "correct_answer": "Margaret Hamilton",
+    "incorrect_answers": ["Billie Burke", "Clara Blandick", "Charley Grapewin"],
+    "explanation": "Margaret Hamilton's portrayal of the Wicked Witch became one of cinema's most iconic villain performances. She suffered burns during filming when a pyrotechnic effect went wrong.",
+    "hint": "She shares her last name with a famous American founding father who was also the subject of a Broadway musical.",
+    "difficulty": "hard"
+  }
+]

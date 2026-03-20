@@ -1,0 +1,182 @@
+[
+  {
+    "topic": "Arts & Literature",
+    "question": "In which Broadway musical does a young orphan girl sing 'Tomorrow'?",
+    "correct_answer": "Annie",
+    "answers": ["Oliver!", "Annie", "Matilda", "Les Mis\u00e9rables"],
+    "explanation": "Annie, based on the comic strip Little Orphan Annie, opened on Broadway in 1977 and features the iconic song 'Tomorrow.'",
+    "hint": "The show is named after the main character, a red-haired orphan.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which musical features the song 'Memory' sung by the character Grizabella?",
+    "correct_answer": "Cats",
+    "answers": ["Phantom of the Opera", "Cats", "Evita", "Chicago"],
+    "explanation": "Cats, composed by Andrew Lloyd Webber and based on T.S. Eliot's poetry, opened on Broadway in 1982. 'Memory' became one of the most recorded songs in history.",
+    "hint": "The show is based on T.S. Eliot poems about a specific type of animal.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which musical tells the story of Alexander Hamilton through hip-hop and R&B music?",
+    "correct_answer": "Hamilton",
+    "answers": ["Hamilton", "1776", "Bloody Bloody Andrew Jackson", "Suffs"],
+    "explanation": "Hamilton, created by Lin-Manuel Miranda, opened on Broadway in 2015 and won 11 Tony Awards.",
+    "hint": "It's named after a Founding Father whose face is on the $10 bill.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "In 'The Phantom of the Opera,' what is the Phantom's real first name?",
+    "correct_answer": "Erik",
+    "answers": ["Charles", "Raoul", "Erik", "Gustav"],
+    "explanation": "The Phantom's name is Erik, as established in Gaston Leroux's original 1910 novel. The musical by Andrew Lloyd Webber became the longest-running show in Broadway history.",
+    "hint": "It's a Scandinavian name that starts with E.",
+    "difficulty": "hard"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which Rodgers and Hammerstein musical is set in the hills of Austria?",
+    "correct_answer": "The Sound of Music",
+    "answers": ["The Sound of Music", "Oklahoma!", "Carousel", "The King and I"],
+    "explanation": "The Sound of Music, based on the memoir of Maria von Trapp, opened on Broadway in 1959 and was adapted into the beloved 1965 film.",
+    "hint": "Maria is a novice who becomes governess to a large family.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which musical features the characters Elphaba and Glinda?",
+    "correct_answer": "Wicked",
+    "answers": ["Wicked", "Into the Woods", "The Wizard of Oz", "Frozen"],
+    "explanation": "Wicked, which opened on Broadway in 2003, is based on Gregory Maguire's novel and tells the backstory of the witches from The Wizard of Oz.",
+    "hint": "It's a prequel to a famous story about the Land of Oz.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which Stephen Sondheim musical is set in a barbershop on Fleet Street in London?",
+    "correct_answer": "Sweeney Todd",
+    "answers": ["Into the Woods", "Sweeney Todd", "Company", "A Little Night Music"],
+    "explanation": "Sweeney Todd: The Demon Barber of Fleet Street opened on Broadway in 1979 and tells the story of a vengeful barber and his accomplice Mrs. Lovett.",
+    "hint": "The title character is a barber who seeks revenge.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "In 'West Side Story,' which two rival gangs are in conflict?",
+    "correct_answer": "The Jets and the Sharks",
+    "answers": ["The Jets and the Sharks", "The Bloods and the Crips", "The Royals and the Eagles", "The Kings and the Cobras"],
+    "explanation": "West Side Story, inspired by Romeo and Juliet, features the white Jets and the Puerto Rican Sharks. It opened on Broadway in 1957 with music by Leonard Bernstein.",
+    "hint": "One gang is named after a type of aircraft, the other after an ocean predator.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which musical features the song 'Don't Cry for Me Argentina'?",
+    "correct_answer": "Evita",
+    "answers": ["Chicago", "Evita", "Kiss of the Spider Woman", "West Side Story"],
+    "explanation": "Evita, with music by Andrew Lloyd Webber and lyrics by Tim Rice, tells the story of Eva Per\u00f3n. It opened on Broadway in 1979.",
+    "hint": "The show is about the wife of an Argentine president.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which musical is based on Victor Hugo's novel about Jean Valjean?",
+    "correct_answer": "Les Mis\u00e9rables",
+    "answers": ["Les Mis\u00e9rables", "The Hunchback of Notre Dame", "Phantom of the Opera", "Sweeney Todd"],
+    "explanation": "Les Mis\u00e9rables opened on Broadway in 1987 and is one of the longest-running musicals in history, featuring songs like 'I Dreamed a Dream' and 'One Day More.'",
+    "hint": "The title is French and translates to 'The Miserable Ones.'",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "In 'A Chorus Line,' what are the dancers auditioning for?",
+    "correct_answer": "A spot in the chorus of a Broadway show",
+    "answers": ["A spot in the chorus of a Broadway show", "A lead role in a movie", "A spot on a dance competition TV show", "A place in a ballet company"],
+    "explanation": "A Chorus Line, which opened in 1975, follows dancers auditioning for spots in the chorus of a Broadway musical. It held the record for longest-running Broadway show for nearly a decade.",
+    "hint": "The title tells you exactly what they're trying to join.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Who composed the music for 'West Side Story'?",
+    "correct_answer": "Leonard Bernstein",
+    "answers": ["Stephen Sondheim", "Leonard Bernstein", "Richard Rodgers", "Cole Porter"],
+    "explanation": "Leonard Bernstein composed the score, while Stephen Sondheim wrote the lyrics. It was Sondheim's first Broadway show as a lyricist.",
+    "hint": "This famous conductor and composer shares his first name with a certain Mr. Nimoy.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which musical features the song 'Seasons of Love' and its famous opening line about 525,600 minutes?",
+    "correct_answer": "Rent",
+    "answers": ["Rent", "Spring Awakening", "Tick, Tick... Boom!", "Hair"],
+    "explanation": "Rent, by Jonathan Larson, opened on Broadway in 1996. It's a rock musical loosely based on Puccini's opera La Boh\u00e8me, set in New York's East Village.",
+    "hint": "The title is something you pay to your landlord every month.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "In 'Chicago,' what crime does Roxie Hart commit?",
+    "correct_answer": "Murder",
+    "answers": ["Robbery", "Murder", "Fraud", "Arson"],
+    "explanation": "Roxie Hart shoots her lover Fred Casely. The musical satirizes the celebrity criminal culture of the 1920s Jazz Age in Chicago.",
+    "hint": "She shoots someone — the most serious crime there is.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which musical is set during the French Revolution and features a barricade scene?",
+    "correct_answer": "Les Mis\u00e9rables",
+    "answers": ["Sweeney Todd", "The Scarlet Pimpernel", "Les Mis\u00e9rables", "1789"],
+    "explanation": "Though often associated with the French Revolution, Les Mis\u00e9rables is actually set during the June Rebellion of 1832 in Paris, a lesser-known uprising.",
+    "hint": "Jean Valjean, Javert, and the student revolutionaries are all in this show.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which Rodgers and Hammerstein musical features the songs 'Oh, What a Beautiful Mornin'' and 'The Surrey with the Fringe on Top'?",
+    "correct_answer": "Oklahoma!",
+    "answers": ["Carousel", "Oklahoma!", "South Pacific", "State Fair"],
+    "explanation": "Oklahoma! opened on Broadway in 1943 and was the first collaboration between Richard Rodgers and Oscar Hammerstein II. It revolutionized the American musical.",
+    "hint": "The show is named after a U.S. state that became the 46th to join the Union.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Who wrote the book, music, and lyrics for 'Hamilton'?",
+    "correct_answer": "Lin-Manuel Miranda",
+    "answers": ["Lin-Manuel Miranda", "Jonathan Larson", "Stephen Schwartz", "Jason Robert Brown"],
+    "explanation": "Lin-Manuel Miranda wrote the book, music, and lyrics, and also originated the title role. He was inspired after reading Ron Chernow's biography of Alexander Hamilton.",
+    "hint": "He also created the musical In the Heights.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "In 'Grease,' what is the name of the high school where the story takes place?",
+    "correct_answer": "Rydell High",
+    "answers": ["Rydell High", "Baxter High", "West Beverly High", "Shermer High"],
+    "explanation": "Grease is set at the fictional Rydell High School in 1959 Chicago. The original Broadway production opened in 1972.",
+    "hint": "The school's name starts with R and rhymes with a famous guitar brand.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which musical features a giant chandelier that crashes onto the stage?",
+    "correct_answer": "The Phantom of the Opera",
+    "answers": ["Les Mis\u00e9rables", "The Phantom of the Opera", "Sunset Boulevard", "Miss Saigon"],
+    "explanation": "The falling chandelier is one of the most iconic moments in theater history. The Phantom of the Opera opened on Broadway in 1988 and ran for 35 years.",
+    "hint": "The show takes place in a Paris opera house and the title character wears a mask.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Arts & Literature",
+    "question": "Which musical won the Tony Award for Best Musical in 2016, winning a record-tying 11 Tony Awards that night?",
+    "correct_answer": "Hamilton",
+    "answers": ["Dear Evan Hansen", "Hamilton", "The Book of Mormon", "Hadestown"],
+    "explanation": "Hamilton won 11 Tonys in 2016, tying the record previously held by The Producers. It won Best Musical, Best Score, Best Book, and more.",
+    "hint": "Lin-Manuel Miranda's hip-hop musical about a Founding Father.",
+    "difficulty": "medium"
+  }
+]

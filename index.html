@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Time</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    background: #0f1117;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem;
+  }
+  .container { max-width: 680px; width: 100%; }
+
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+    background: linear-gradient(135deg, #f7c948, #ee5a6f, #7c5cfc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Topic selector */
+  .topic-bar {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .topic-btn {
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    border: 2px solid #2a2d3a;
+    background: transparent;
+    color: #888;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.2s;
+  }
+  .topic-btn:hover { border-color: #555; color: #ccc; }
+  .topic-btn.active { border-color: #7c5cfc; color: #fff; background: rgba(124,92,252,0.15); }
+
+  /* Progress */
+  .progress-wrap { margin-bottom: 1.5rem; }
+  .progress-text { text-align: center; color: #666; font-size: 0.85rem; margin-bottom: 0.5rem; }
+  .progress-track { background: #1a1d2a; border-radius: 10px; height: 8px; overflow: hidden; }
+  .progress-fill {
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #7c5cfc, #ee5a6f, #f7c948);
+    transition: width 0.4s ease;
+  }
+  .score-inline {
+    text-align: center;
+    color: #555;
+    font-size: 0.85rem;
+    margin-top: 0.4rem;
+  }
+
+  /* Card */
+  .card {
+    background: #181a24;
+    border: 1px solid #2a2d3a;
+    border-radius: 16px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .q-category {
+    display: inline-block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0.25rem 0.7rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+  }
+  .q-category.oz { background: rgba(76,175,80,0.15); color: #66bb6a; }
+  .q-category.trump { background: rgba(238,90,111,0.15); color: #ee5a6f; }
+  .q-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: #eee;
+  }
+  .answer-input {
+    width: 100%;
+    padding: 0.85rem 1rem;
+    font-size: 1.05rem;
+    font-family: inherit;
+    background: #12131b;
+    border: 2px solid #2a2d3a;
+    border-radius: 10px;
+    color: #eee;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .answer-input:focus { border-color: #7c5cfc; }
+  .answer-input:disabled { opacity: 0.5; }
+
+  .hint { font-size: 0.8rem; color: #444; margin-top: 0.4rem; }
+
+  .feedback {
+    margin-top: 1.2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    display: none;
+  }
+  .feedback.correct { display: block; background: rgba(76,175,80,0.1); border: 1px solid #388e3c; color: #81c784; }
+  .feedback.wrong { display: block; background: rgba(238,90,111,0.1); border: 1px solid #c62828; color: #ef9a9a; }
+
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 1.8rem;
+    font-size: 1rem;
+    font-family: inherit;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.1s, opacity 0.2s;
+    margin-top: 1rem;
+  }
+  .btn:hover { opacity: 0.9; transform: translateY(-1px); }
+  .btn-submit { background: #7c5cfc; color: #fff; }
+  .btn-next { background: #f7c948; color: #111; font-weight: 600; }
+  .btn-restart { background: #ee5a6f; color: #fff; }
+
+  /* Results */
+  .results { text-align: center; padding: 2.5rem 2rem; }
+  .results .big-score {
+    font-size: 4.5rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #f7c948, #ee5a6f, #7c5cfc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .results .out-of { color: #555; font-size: 1.1rem; margin-bottom: 1rem; }
+  .results .message { color: #ccc; font-size: 1.2rem; margin-bottom: 0.5rem; }
+  .results .breakdown { color: #666; font-size: 0.95rem; margin-bottom: 1.5rem; }
+
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Quiz Time</h1>
+  <div class="subtitle">Wizard of Oz + Trump Administration</div>
+
+  <div class="topic-bar">
+    <button class="topic-btn active" data-topic="all">All (30)</button>
+    <button class="topic-btn" data-topic="oz">Wizard of Oz (20)</button>
+    <button class="topic-btn" data-topic="trump">Trump Admin (10)</button>
+    <button class="topic-btn" data-topic="shuffle">Shuffle All</button>
+  </div>
+
+  <div class="progress-wrap" id="progressWrap">
+    <div class="progress-text" id="progressText">Question 1 of 30</div>
+    <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+    <div class="score-inline" id="scoreInline">Score: 0 / 0</div>
+  </div>
+
+  <div class="card" id="quizCard">
+    <div class="q-category" id="qCategory"></div>
+    <div class="q-text" id="qText"></div>
+    <input type="text" class="answer-input" id="answerInput" placeholder="Type your answer..." autocomplete="off">
+    <div class="hint">Press Enter to submit</div>
+    <div class="feedback" id="feedback"></div>
+    <div id="btnArea">
+      <button class="btn btn-submit" id="submitBtn">Submit</button>
+    </div>
+  </div>
+
+  <div class="card results hidden" id="resultsCard">
+    <div class="big-score" id="finalScore"></div>
+    <div class="out-of" id="outOf"></div>
+    <div class="message" id="resultMsg"></div>
+    <div class="breakdown" id="breakdown"></div>
+    <button class="btn btn-restart" id="restartBtn">Play Again</button>
+  </div>
+</div>
+
+<script>
+const ozQuestions = [
+  { q: "What is the name of Dorothy's dog?", accept: ["toto"], answer: "Toto", cat: "oz" },
+  { q: "What state does Dorothy live in before being transported to Oz?", accept: ["kansas"], answer: "Kansas", cat: "oz" },
+  { q: "What color are the slippers Dorothy wears in the film?", accept: ["ruby", "red", "ruby red"], answer: "Ruby (red)", cat: "oz" },
+  { q: "Who played Dorothy Gale?", accept: ["judy garland", "garland", "judy"], answer: "Judy Garland", cat: "oz" },
+  { q: "What does the Scarecrow want from the Wizard?", accept: ["brain", "a brain", "brains"], answer: "A brain", cat: "oz" },
+  { q: "What does the Tin Man want from the Wizard?", accept: ["heart", "a heart"], answer: "A heart", cat: "oz" },
+  { q: "What does the Cowardly Lion want from the Wizard?", accept: ["courage", "bravery", "nerve"], answer: "Courage", cat: "oz" },
+  { q: "What is the name of the Good Witch who greets Dorothy in Munchkinland?", accept: ["glinda", "glenda"], answer: "Glinda", cat: "oz" },
+  { q: "In the film, is the Wicked Witch of the West given a personal name?", accept: ["no", "she is not", "not named", "unnamed", "nope"], answer: "No (she is later named Elphaba in other works)", cat: "oz" },
+  { q: "How does Dorothy defeat the Wicked Witch of the West?", accept: ["water", "throws water", "melts her", "bucket of water", "melting", "pours water", "threw water"], answer: "Throws a bucket of water on her, melting her", cat: "oz" },
+  { q: "What famous song does Dorothy sing on the farm in Kansas?", accept: ["over the rainbow", "somewhere over the rainbow", "rainbow"], answer: "\"Over the Rainbow\"", cat: "oz" },
+  { q: "What must Dorothy follow to reach the Emerald City?", accept: ["yellow brick road", "the yellow brick road"], answer: "The Yellow Brick Road", cat: "oz" },
+  { q: "What natural disaster transports Dorothy to the Land of Oz?", accept: ["tornado", "twister", "cyclone"], answer: "A tornado", cat: "oz" },
+  { q: "Who is revealed to be the man behind the curtain?", accept: ["the wizard", "wizard", "oz", "wizard of oz", "the wizard of oz", "professor marvel"], answer: "The Wizard of Oz himself — a normal man", cat: "oz" },
+  { q: "What does Dorothy say while clicking her heels to return home?", accept: ["there's no place like home", "theres no place like home", "no place like home"], answer: "\"There's no place like home\"", cat: "oz" },
+  { q: "What do the Munchkins celebrate when Dorothy arrives in Oz?", accept: ["death", "wicked witch", "death of the wicked witch", "wicked witch of the east", "witch is dead", "killing the witch"], answer: "The death of the Wicked Witch of the East", cat: "oz" },
+  { q: "What does the Wizard give the Scarecrow as a substitute for a brain?", accept: ["diploma", "a diploma", "degree"], answer: "A diploma", cat: "oz" },
+  { q: "Who wrote the original novel The Wonderful Wizard of Oz?", accept: ["l. frank baum", "frank baum", "baum", "l frank baum", "lyman frank baum"], answer: "L. Frank Baum", cat: "oz" },
+  { q: "What flower-filled field puts Dorothy and her friends to sleep?", accept: ["poppy field", "field of poppies", "poppies", "poppy", "the poppy field"], answer: "A field of poppies", cat: "oz" },
+  { q: "What is the final line Dorothy speaks in the film?", accept: ["there's no place like home", "theres no place like home", "no place like home"], answer: "\"There's no place like home!\"", cat: "oz" }
+];
+
+const trumpQuestions = [
+  { q: "What number president is Donald Trump?", accept: ["45", "45th", "45th and 47th", "47", "47th", "45 and 47"], answer: "45th (and 47th)", cat: "trump" },
+  { q: "Who served as Trump's Vice President during his first term (2017–2021)?", accept: ["mike pence", "pence", "michael pence"], answer: "Mike Pence", cat: "trump" },
+  { q: "What was the name of Trump's signature tax legislation signed in December 2017?", accept: ["tax cuts and jobs act", "tcja", "tax cuts", "tax reform"], answer: "The Tax Cuts and Jobs Act", cat: "trump" },
+  { q: "Name any Supreme Court justice Trump appointed during his first term.", accept: ["gorsuch", "kavanaugh", "barrett", "neil gorsuch", "brett kavanaugh", "amy coney barrett", "amy barrett"], answer: "Neil Gorsuch, Brett Kavanaugh, and Amy Coney Barrett", cat: "trump" },
+  { q: "Trump's trade war primarily targeted which country?", accept: ["china", "prc", "people's republic of china"], answer: "China", cat: "trump" },
+  { q: "What was Trump's executive order restricting travel from several majority-Muslim countries commonly called?", accept: ["travel ban", "muslim ban", "immigration ban", "the travel ban", "the muslim ban"], answer: "The travel ban (or \"Muslim ban\")", cat: "trump" },
+  { q: "Who served as Trump's first Attorney General?", accept: ["jeff sessions", "sessions"], answer: "Jeff Sessions", cat: "trump" },
+  { q: "What was Trump impeached for the first time in December 2019?", accept: ["abuse of power", "ukraine", "obstruction", "abuse of power and obstruction of congress", "soliciting foreign interference", "withholding aid"], answer: "Abuse of power and obstruction of Congress (related to Ukraine)", cat: "trump" },
+  { q: "What climate agreement did Trump withdraw the United States from in 2017?", accept: ["paris", "paris agreement", "paris accord", "paris climate accord", "paris climate agreement"], answer: "The Paris Agreement", cat: "trump" },
+  { q: "Who is Trump's Vice President in his second term (2025–present)?", accept: ["jd vance", "vance", "j.d. vance", "james david vance"], answer: "JD Vance", cat: "trump" }
+];
+
+let questions = [];
+let current = 0;
+let score = 0;
+let ozScore = 0;
+let trumpScore = 0;
+let answered = false;
+
+function norm(s) { return s.toLowerCase().replace(/[^a-z0-9 ]/g, '').trim(); }
+
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+function setQuestions(topic) {
+  if (topic === 'oz') questions = [...ozQuestions];
+  else if (topic === 'trump') questions = [...trumpQuestions];
+  else if (topic === 'shuffle') questions = shuffle([...ozQuestions, ...trumpQuestions]);
+  else questions = [...ozQuestions, ...trumpQuestions];
+  current = 0; score = 0; ozScore = 0; trumpScore = 0;
+  document.getElementById('resultsCard').classList.add('hidden');
+  document.getElementById('quizCard').classList.remove('hidden');
+  document.getElementById('progressWrap').classList.remove('hidden');
+  loadQuestion();
+}
+
+function loadQuestion() {
+  const item = questions[current];
+  document.getElementById('qCategory').textContent = item.cat === 'oz' ? 'Wizard of Oz' : 'Trump Administration';
+  document.getElementById('qCategory').className = 'q-category ' + item.cat;
+  document.getElementById('qText').textContent = item.q;
+  const input = document.getElementById('answerInput');
+  input.value = ''; input.disabled = false; input.focus();
+  document.getElementById('feedback').className = 'feedback';
+  document.getElementById('feedback').style.display = 'none';
+  answered = false;
+  document.getElementById('btnArea').innerHTML = '<button class="btn btn-submit" id="submitBtn">Submit</button>';
+  document.getElementById('submitBtn').addEventListener('click', checkAnswer);
+  document.getElementById('progressText').textContent = `Question ${current + 1} of ${questions.length}`;
+  document.getElementById('progressFill').style.width = ((current + 1) / questions.length * 100) + '%';
+  document.getElementById('scoreInline').textContent = `Score: ${score} / ${current}`;
+}
+
+function checkAnswer() {
+  if (answered) return;
+  const userAnswer = norm(document.getElementById('answerInput').value);
+  if (!userAnswer) return;
+  answered = true;
+  document.getElementById('answerInput').disabled = true;
+  const item = questions[current];
+  const isCorrect = item.accept.some(a => userAnswer.includes(norm(a)) || norm(a).includes(userAnswer));
+  const fb = document.getElementById('feedback');
+
+  if (isCorrect) {
+    score++;
+    if (item.cat === 'oz') ozScore++; else trumpScore++;
+    fb.className = 'feedback correct';
+    fb.innerHTML = `<strong>Correct!</strong> ${item.answer}`;
+  } else {
+    fb.className = 'feedback wrong';
+    fb.innerHTML = `<strong>Not quite.</strong> The answer is: ${item.answer}`;
+  }
+  fb.style.display = 'block';
+  document.getElementById('scoreInline').textContent = `Score: ${score} / ${current + 1}`;
+
+  if (current < questions.length - 1) {
+    document.getElementById('btnArea').innerHTML = '<button class="btn btn-next" id="nextBtn">Next</button>';
+    document.getElementById('nextBtn').addEventListener('click', () => { current++; loadQuestion(); });
+  } else {
+    document.getElementById('btnArea').innerHTML = '<button class="btn btn-next" id="finishBtn">See Results</button>';
+    document.getElementById('finishBtn').addEventListener('click', showResults);
+  }
+}
+
+function showResults() {
+  document.getElementById('quizCard').classList.add('hidden');
+  document.getElementById('progressWrap').classList.add('hidden');
+  const rc = document.getElementById('resultsCard');
+  rc.classList.remove('hidden');
+  document.getElementById('finalScore').textContent = score;
+  document.getElementById('outOf').textContent = `out of ${questions.length}`;
+  const pct = score / questions.length;
+  let msg;
+  if (pct === 1) msg = "Perfect score! Absolutely flawless!";
+  else if (pct >= 0.8) msg = "Impressive! You really know your stuff.";
+  else if (pct >= 0.6) msg = "Solid effort! Room to grow.";
+  else if (pct >= 0.4) msg = "Not bad, but you might want to brush up.";
+  else msg = "Time to hit the books (or rewatch the movie)!";
+  document.getElementById('resultMsg').textContent = msg;
+
+  const parts = [];
+  const ozTotal = questions.filter(q => q.cat === 'oz').length;
+  const trumpTotal = questions.filter(q => q.cat === 'trump').length;
+  if (ozTotal) parts.push(`Wizard of Oz: ${ozScore}/${ozTotal}`);
+  if (trumpTotal) parts.push(`Trump Admin: ${trumpScore}/${trumpTotal}`);
+  document.getElementById('breakdown').textContent = parts.join('  |  ');
+}
+
+// Topic buttons
+document.querySelectorAll('.topic-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.topic-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    setQuestions(btn.dataset.topic);
+  });
+});
+
+document.getElementById('restartBtn').addEventListener('click', () => {
+  const active = document.querySelector('.topic-btn.active');
+  setQuestions(active ? active.dataset.topic : 'all');
+});
+
+document.getElementById('answerInput').addEventListener('keydown', e => {
+  if (e.key === 'Enter') {
+    if (!answered) checkAnswer();
+    else if (current < questions.length - 1) { current++; loadQuestion(); }
+    else showResults();
+  }
+});
+
+setQuestions('all');
+</script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+[
+  {
+    "topic": "Politics",
+    "question": "What number president of the United States is Donald Trump in his first term?",
+    "correct_answer": "45th",
+    "incorrect_answers": ["44th", "46th", "43rd"],
+    "explanation": "Donald Trump served as the 45th president from 2017 to 2021, and later returned as the 47th president in 2025.",
+    "hint": "He was preceded by Barack Obama (44th) and succeeded by Joe Biden (46th) in his first term.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Politics",
+    "question": "Who served as Vice President during Trump's first term from 2017 to 2021?",
+    "correct_answer": "Mike Pence",
+    "incorrect_answers": ["JD Vance", "Mike Pompeo", "Rex Tillerson"],
+    "explanation": "Mike Pence, the former Governor of Indiana, served as Trump's Vice President during his first term.",
+    "hint": "He was previously the Governor of Indiana.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Politics",
+    "question": "What was the name of Trump's signature tax legislation signed into law in December 2017?",
+    "correct_answer": "The Tax Cuts and Jobs Act",
+    "incorrect_answers": ["The American Tax Relief Act", "The Economic Growth and Recovery Act", "The Fair Tax Reform Act"],
+    "explanation": "The Tax Cuts and Jobs Act lowered the corporate tax rate from 35% to 21% and temporarily reduced individual income tax rates.",
+    "hint": "The name directly references both reducing taxes and employment.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Politics",
+    "question": "Which was the first Supreme Court justice Donald Trump appointed during his first term?",
+    "correct_answer": "Neil Gorsuch",
+    "incorrect_answers": ["Brett Kavanaugh", "Amy Coney Barrett", "Merrick Garland"],
+    "explanation": "Neil Gorsuch was confirmed in April 2017 to fill the seat left vacant by the death of Antonin Scalia. Trump later appointed Kavanaugh (2018) and Barrett (2020).",
+    "hint": "He filled the seat of Antonin Scalia and was confirmed in April 2017.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Politics",
+    "question": "Trump's trade war in his first term primarily targeted which country?",
+    "correct_answer": "China",
+    "incorrect_answers": ["Mexico", "Canada", "Germany"],
+    "explanation": "Trump imposed tariffs on hundreds of billions of dollars worth of Chinese goods starting in 2018, citing unfair trade practices and intellectual property theft.",
+    "hint": "It's the world's second-largest economy and a major manufacturing hub.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Politics",
+    "question": "What was Trump's executive order restricting travel from several majority-Muslim countries commonly called?",
+    "correct_answer": "The travel ban",
+    "incorrect_answers": ["The border wall order", "The immigration freeze", "The visa moratorium"],
+    "explanation": "Signed in January 2017, the executive order restricted entry from several majority-Muslim countries and went through multiple legal challenges before a version was upheld by the Supreme Court.",
+    "hint": "Critics used a two-word phrase with the word 'ban' in it to describe it.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Politics",
+    "question": "Who served as Trump's first Attorney General?",
+    "correct_answer": "Jeff Sessions",
+    "incorrect_answers": ["William Barr", "Rod Rosenstein", "Jeff Flake"],
+    "explanation": "Jeff Sessions, a former U.S. Senator from Alabama, served as Attorney General from February 2017 until his forced resignation in November 2018. His recusal from the Russia investigation strained his relationship with Trump.",
+    "hint": "He was a U.S. Senator from Alabama who recused himself from the Russia investigation.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Politics",
+    "question": "What was Donald Trump first impeached for in December 2019?",
+    "correct_answer": "Abuse of power and obstruction of Congress",
+    "incorrect_answers": ["Incitement of insurrection", "Obstruction of justice and perjury", "Bribery and extortion"],
+    "explanation": "The first impeachment stemmed from Trump's phone call with Ukraine's President Zelensky, in which he allegedly pressured Ukraine to investigate Joe Biden in exchange for military aid.",
+    "hint": "It involved a phone call with the president of Ukraine.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Politics",
+    "question": "What international climate agreement did Trump withdraw the United States from during his first term?",
+    "correct_answer": "The Paris Agreement",
+    "incorrect_answers": ["The Kyoto Protocol", "The Copenhagen Accord", "The Montreal Protocol"],
+    "explanation": "Trump announced the U.S. withdrawal from the Paris Agreement in June 2017, arguing it disadvantaged the American economy. The withdrawal became effective in November 2020.",
+    "hint": "The agreement is named after the French capital where it was negotiated in 2015.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Politics",
+    "question": "Who is Trump's Vice President in his second term beginning in 2025?",
+    "correct_answer": "JD Vance",
+    "incorrect_answers": ["Mike Pence", "Vivek Ramaswamy", "Ron DeSantis"],
+    "explanation": "JD Vance, a U.S. Senator from Ohio and author of Hillbilly Elegy, was selected as Trump's running mate for the 2024 election.",
+    "hint": "He is a U.S. Senator from Ohio who wrote a bestselling memoir about Appalachian life.",
+    "difficulty": "easy"
+  }
+]
