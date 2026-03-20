@@ -59,7 +59,7 @@
     "topic": "Film & TV",
     "question": "What does the Scarecrow want from the Wizard of Oz?",
     "correct_answer": "A brain",
-    "explanation": "The Scarecrow constantly solves problems and comes up with plans throughout the journey — all while insisting he can't think without a brain. The film plays his self-doubt for both comedy and pathos.",
+    "explanation": "The Scarecrow constantly solves problems and comes up with plans throughout the journey — all while insisting he can't think without a brain.",
     "hint": "He thinks he's not smart enough — he wants something inside his head.",
     "difficulty": "easy",
     "answers": [
@@ -73,7 +73,7 @@
     "topic": "Film & TV",
     "question": "What does the Tin Man want from the Wizard of Oz?",
     "correct_answer": "A heart",
-    "explanation": "The Tin Man weeps so often during the journey that his tears cause him to rust shut. He spends the film longing for a heart he arguably already has.",
+    "explanation": "The Tin Man weeps so often during the journey that his tears cause him to rust shut. He spends the entire film longing for a heart, despite showing more emotion than anyone else in the group.",
     "hint": "He wants the ability to feel emotions and love.",
     "difficulty": "easy",
     "answers": [
@@ -429,7 +429,7 @@
       "Matilda",
       "Les Misérables"
     ],
-    "explanation": "Annie, based on the Depression-era comic strip Little Orphan Annie, opened on Broadway in 1977. 'Tomorrow' became so widely known that it has been performed by everyone from presidents to pop stars.",
+    "explanation": "Annie, based on the Depression-era comic strip Little Orphan Annie, opened on Broadway in 1977 and ran for nearly six years. The original production won seven Tony Awards, including Best Musical.",
     "hint": "The show is named after the main character, a red-haired orphan.",
     "difficulty": "easy"
   },
@@ -541,7 +541,7 @@
       "Kiss of the Spider Woman",
       "West Side Story"
     ],
-    "explanation": "Evita traces the meteoric rise of Eva Perón from poverty to political power in Argentina. Andrew Lloyd Webber and Tim Rice wrote the score, and the show opened on Broadway in 1979.",
+    "explanation": "Eva Perón rose from poverty to become the most powerful woman in Argentina. Andrew Lloyd Webber and Tim Rice wrote the score, and the show opened on Broadway in 1979.",
     "hint": "The show is about the wife of an Argentine president.",
     "difficulty": "medium"
   },
@@ -611,7 +611,7 @@
       "Fraud",
       "Arson"
     ],
-    "explanation": "Roxie Hart fatally shoots her lover Fred Casely, then rides the ensuing media circus to celebrity status. The musical skewers how tabloid culture can turn a killer into a star.",
+    "explanation": "Roxie Hart fatally shoots her lover Fred Casely, then rides the ensuing media circus to celebrity status. The musical shows how tabloid culture can turn a killer into a star.",
     "hint": "She shoots someone — the most serious crime there is.",
     "difficulty": "medium"
   },
@@ -681,7 +681,7 @@
       "Sunset Boulevard",
       "Miss Saigon"
     ],
-    "explanation": "The chandelier crash became the show's signature spectacle — audiences gasped at it nightly for 35 years. The Phantom of the Opera opened on Broadway in 1988 and ran until 2023, longer than any other show.",
+    "explanation": "The chandelier crash became the show's signature moment — audiences gasped at it nightly for 35 years. The Phantom of the Opera opened on Broadway in 1988 and ran until 2023, longer than any other show.",
     "hint": "The show takes place in a Paris opera house and the title character wears a mask.",
     "difficulty": "easy"
   },
