@@ -120,7 +120,7 @@
   }
   .answer-btn.selected { border-color: #7c5cfc; background: rgba(124,92,252,0.12); }
   .answer-btn.selected .letter { background: #7c5cfc; color: #fff; }
-  .answer-btn.correct { border-color: #66bb6a; background: rgba(76,175,80,0.12); }
+  .answer-btn.correct { border-color: #66bb6a; background: rgba(76,175,80,0.12); animation: flash-green 0.5s ease 4; }
   .answer-btn.correct .letter { background: #66bb6a; color: #fff; }
   .answer-btn.wrong { border-color: #ef5350; background: rgba(239,83,80,0.08); }
   .answer-btn.wrong .letter { background: #ef5350; color: #fff; }
@@ -386,59 +386,76 @@ function handleAnswer(btn, answer) {
     const hintArea = document.getElementById('hintArea');
     hintArea.style.display = 'block';
 
-    if (attempts <= 2) {
-      const hintCost = 1;
-      const hintNum = attempts;
-      hintArea.innerHTML += `<div class="hint-box" id="hintOffer">Do you want a hint? It will cost ${hintCost} point.<br>
+    if (attempts === 1) {
+      // First wrong — offer hint 1
+      hintArea.innerHTML = `<div class="hint-box" id="hintOffer">Want a hint? It costs 1 point.<br>
         <button class="hint-offer-btn hint-yes" id="hintYes">Yes</button>
         <button class="hint-offer-btn hint-no" id="hintNo">No</button>
       </div>`;
 
       document.getElementById('hintYes').addEventListener('click', () => {
-        score = Math.max(0, score - hintCost);
+        score = Math.max(0, score - 1);
         updateScoreDisplay();
-        const offer = document.getElementById('hintOffer');
-
-        if (hintNum === 1) {
-          offer.innerHTML = `<span class="hint-label">Hint 1:</span> ${q.hint}`;
-        } else {
-          // Anagram hint
-          const chars = q.correct_answer.replace(/\\s+/g, '').toLowerCase().split('');
-          for (let i = chars.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [chars[i], chars[j]] = [chars[j], chars[i]];
-          }
-          let anagram = chars.join('');
-          if (anagram === q.correct_answer.replace(/\\s+/g, '').toLowerCase()) {
-            anagram = chars.reverse().join('');
-          }
-          offer.id = 'anagramBox';
-          offer.innerHTML = `<span class="hint-label">Hint 2:</span> This anagram of the correct answer will disappear in 2 secs: <strong>${anagram}</strong>`;
-          setTimeout(() => {
-            if (answered) return;
-            let timeLeft = 2;
-            const anagramInterval = setInterval(() => {
-              timeLeft--;
-              if (timeLeft <= 0) {
-                clearInterval(anagramInterval);
-                const box = document.getElementById('anagramBox');
-                if (box) {
-                  box.innerHTML = '<span class="hint-label">Hint 2:</span> The two seconds are up. You can choose your answer now.';
-                }
-              }
-            }, 1000);
-          }, 1500);
-        }
-        // Re-enable remaining answer buttons
+        document.getElementById('hintOffer').innerHTML = `<span class="hint-label">Hint:</span> ${q.hint}`;
         document.querySelectorAll('.answer-btn').forEach(b => { if (b._wasEnabled) b.disabled = false; });
       });
 
       document.getElementById('hintNo').addEventListener('click', () => {
-        // No hint — end the question, flash correct answer
         endQuestionWrong(q);
       });
+
+    } else if (attempts === 2) {
+      // Second wrong — offer anagram hint, shown below first hint
+      const offerDiv = document.createElement('div');
+      offerDiv.className = 'hint-box';
+      offerDiv.id = 'hintOffer2';
+      offerDiv.innerHTML = `Still not correct. Another hint? Still costs.<br>
+        <button class="hint-offer-btn hint-yes" id="hintYes2">Yes</button>
+        <button class="hint-offer-btn hint-no" id="hintNo2">No</button>`;
+      hintArea.appendChild(offerDiv);
+
+      document.getElementById('hintYes2').addEventListener('click', () => {
+        score = Math.max(0, score - 1);
+        updateScoreDisplay();
+        // Build anagram
+        const chars = q.correct_answer.replace(/\s+/g, '').toLowerCase().split('');
+        for (let i = chars.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [chars[i], chars[j]] = [chars[j], chars[i]];
+        }
+        let anagram = chars.join('');
+        if (anagram === q.correct_answer.replace(/\s+/g, '').toLowerCase()) {
+          anagram = chars.reverse().join('');
+        }
+        const offer2 = document.getElementById('hintOffer2');
+        offer2.id = 'anagramBox';
+        offer2.innerHTML = `This anagram of the correct answer will disappear in 2 secs: <strong>${anagram}</strong>`;
+        // 1.5s to read intro, then 2s countdown
+        setTimeout(() => {
+          if (answered) return;
+          let timeLeft = 2;
+          const anagramInterval = setInterval(() => {
+            timeLeft--;
+            if (timeLeft <= 0) {
+              clearInterval(anagramInterval);
+              const box = document.getElementById('anagramBox');
+              if (box) {
+                box.innerHTML = 'The two seconds are up. You can choose your answer now.';
+              }
+            }
+          }, 1000);
+        }, 1500);
+        document.querySelectorAll('.answer-btn').forEach(b => { if (b._wasEnabled) b.disabled = false; });
+      });
+
+      document.getElementById('hintNo2').addEventListener('click', () => {
+        endQuestionWrong(q);
+      });
+
     } else {
-      // 3rd+ wrong answer — end the question
+      // 3rd+ wrong — overwrite the anagram area, end the question
+      const anagramBox = document.getElementById('anagramBox');
+      if (anagramBox) anagramBox.remove();
       endQuestionWrong(q);
     }
   }
