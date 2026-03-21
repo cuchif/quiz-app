@@ -372,9 +372,38 @@ function handleAnswer(btn, answer) {
       if (anagram === q.correct_answer.replace(/\s+/g, '').toLowerCase()) {
         anagram = chars.reverse().join('');
       }
-      hintArea.innerHTML += `<div class="hint-box"><span class="hint-label">Hint 2:</span> Unscramble this anagram: <strong>${anagram}</strong></div>`;
+      hintArea.innerHTML += `<div class="hint-box"><span class="hint-label">Hint 2:</span> Unscramble this anagram: <strong>${anagram}</strong> <span id="anagramTimer" style="color:#ef5350;">(2s)</span></div>`;
+      // Start 2-second countdown
+      let timeLeft = 2;
+      const timerSpan = document.getElementById('anagramTimer');
+      const anagramInterval = setInterval(() => {
+        timeLeft--;
+        if (timeLeft > 0) {
+          timerSpan.textContent = `(${timeLeft}s)`;
+        } else {
+          clearInterval(anagramInterval);
+          if (!answered) {
+            // Time's up — mark wrong, reveal correct answer
+            answered = true;
+            streak = 0;
+            disableAllButtons();
+            const allBtns = document.querySelectorAll('.answer-btn');
+            allBtns.forEach(b => {
+              if (b.dataset.answer === q.correct_answer) b.classList.add('correct');
+            });
+            timerSpan.textContent = "(time's up!)";
+            const fb = document.getElementById('feedbackArea');
+            fb.style.display = 'block';
+            fb.innerHTML = `<div class="feedback-box correct-fb">
+              <div class="fb-title">Time's up! The answer was: ${q.correct_answer}</div>
+              <div class="fb-explain">${q.explanation}</div>
+            </div>`;
+            showNextButton();
+            updateScoreDisplay();
+          }
+        }
+      }, 1000);
     }
-    // After 2 wrong, only 1 option remains (the correct one), so they'll get it next click
   }
 }
 
