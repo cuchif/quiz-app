@@ -1,92 +1,142 @@
 [
   {
     "topic": "Music",
-    "question": "What Beatles song begins with the line 'When I find myself in times of trouble'?",
-    "correct_answer": "Let It Be",
-    "answers": ["Let It Be", "Hey Jude", "The Long and Winding Road", "Across the Universe"],
-    "explanation": "Paul McCartney wrote 'Let It Be' after a dream in which his mother Mary, who died when he was 14, came to him and told him everything would be all right.",
-    "hint": "The title is a three-word phrase meaning 'don't worry about it.'",
-    "difficulty": "easy"
+    "question": "What Beatles song contains the lyric 'Nothing you can do that can't be done'?",
+    "correct_answer": "All You Need Is Love",
+    "answers": [
+      "All You Need Is Love",
+      "Let It Be",
+      "Hey Jude",
+      "The Word"
+    ],
+    "explanation": "The Beatles performed this live via satellite to an estimated 400 million viewers in 25 countries on June 25, 1967. It was the first-ever global television broadcast.",
+    "hint": "The five-word title is about the only thing that matters.",
+    "difficulty": "medium"
   },
   {
     "topic": "Music",
-    "question": "What Beatles song begins with the line 'Is there anybody going to listen to my story'?",
-    "correct_answer": "Girl",
-    "answers": ["Girl", "Norwegian Wood", "Michelle", "And I Love Her"],
-    "explanation": "John Lennon wrote 'Girl' for the 1965 album Rubber Soul. The sharp intake of breath between verses was meant to sound like someone inhaling.",
-    "hint": "The title is a single, common English word for a young woman.",
+    "question": "What Beatles song contains the lyric 'Scrambled eggs, oh my baby how I love your legs'?",
+    "correct_answer": "Yesterday",
+    "answers": [
+      "Yesterday",
+      "Let It Be",
+      "Something",
+      "Here, There and Everywhere"
+    ],
+    "explanation": "Paul McCartney used those placeholder lyrics while working out the melody. He eventually replaced them, and the finished song became the most covered song in recorded music history.",
+    "hint": "The title is the day before today.",
     "difficulty": "hard"
   },
   {
     "topic": "Music",
-    "question": "What Beatles song begins with the line 'Yesterday, all my troubles seemed so far away'?",
-    "correct_answer": "Yesterday",
-    "answers": ["Yesterday", "In My Life", "Let It Be", "The Long and Winding Road"],
-    "explanation": "Paul McCartney says the melody came to him in a dream. He initially used the placeholder lyrics 'Scrambled eggs, oh my baby how I love your legs' until he wrote the real words.",
-    "hint": "The title is the day before today.",
-    "difficulty": "easy"
+    "question": "What Beatles song contains the lyric 'He wear no shoeshine, he got toe-jam football'?",
+    "correct_answer": "Come Together",
+    "answers": [
+      "Come Together",
+      "I Am the Walrus",
+      "Happiness Is a Warm Gun",
+      "Glass Onion"
+    ],
+    "explanation": "John Lennon originally wrote the song as a campaign theme for Timothy Leary's run for governor of California. Leary went to prison before the campaign got far.",
+    "hint": "The two-word title is an invitation to join up.",
+    "difficulty": "medium"
   },
   {
     "topic": "Music",
-    "question": "What Beatles song begins with the line 'I read the news today, oh boy'?",
+    "question": "What Beatles song contains the lyric 'Sitting in an English garden waiting for the sun'?",
+    "correct_answer": "I Am the Walrus",
+    "answers": [
+      "I Am the Walrus",
+      "Strawberry Fields Forever",
+      "A Day in the Life",
+      "Lucy in the Sky with Diamonds"
+    ],
+    "explanation": "Lennon deliberately wrote nonsensical lyrics after learning that a teacher at his old school was having students analyze Beatles songs in class. He wanted to confuse them.",
+    "hint": "The title is a declaration of being a large marine mammal.",
+    "difficulty": "hard"
+  },
+  {
+    "topic": "Music",
+    "question": "What Beatles song contains the lyric 'Will you still need me, will you still feed me'?",
+    "correct_answer": "When I'm Sixty-Four",
+    "answers": [
+      "When I'm Sixty-Four",
+      "In My Life",
+      "Here, There and Everywhere",
+      "Michelle"
+    ],
+    "explanation": "Paul McCartney wrote the melody as a teenager and dusted it off for the Sgt. Pepper album. He recorded it on his father Jim's 64th birthday.",
+    "hint": "The title mentions a specific age.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Music",
+    "question": "What Beatles song contains the lyric 'Desmond has a barrow in the marketplace'?",
+    "correct_answer": "Ob-La-Di, Ob-La-Da",
+    "answers": [
+      "Ob-La-Di, Ob-La-Da",
+      "Rocky Raccoon",
+      "Maxwell's Silver Hammer",
+      "Octopus's Garden"
+    ],
+    "explanation": "John Lennon hated this song and called it 'granny music.' A Nigerian musician named Jimmy Scott had used the phrase 'ob-la-di, ob-la-da' and later sued for a songwriting credit.",
+    "hint": "The title is a nonsense phrase that sounds like it could be from another language.",
+    "difficulty": "hard"
+  },
+  {
+    "topic": "Music",
+    "question": "What Beatles song contains the lyric 'Woke up, fell out of bed, dragged a comb across my head'?",
     "correct_answer": "A Day in the Life",
-    "answers": ["A Day in the Life", "Strawberry Fields Forever", "I Am the Walrus", "Revolution"],
-    "explanation": "The song closes out the 1967 album Sgt. Pepper's Lonely Hearts Club Band. The final piano chord was played on three pianos simultaneously and left to ring for over 40 seconds.",
+    "answers": [
+      "A Day in the Life",
+      "Good Morning Good Morning",
+      "I'm Only Sleeping",
+      "Getting Better"
+    ],
+    "explanation": "The song closes out Sgt. Pepper's Lonely Hearts Club Band. The final piano chord was played on three pianos simultaneously and left to ring for over 40 seconds.",
     "hint": "The title describes a 24-hour period.",
     "difficulty": "medium"
   },
   {
     "topic": "Music",
-    "question": "What Beatles song begins with the line 'Picture yourself in a boat on a river'?",
-    "correct_answer": "Lucy in the Sky with Diamonds",
-    "answers": ["Lucy in the Sky with Diamonds", "Strawberry Fields Forever", "Across the Universe", "Being for the Benefit of Mr. Kite!"],
-    "explanation": "John Lennon said the song was inspired by a drawing his son Julian brought home from school. The initials L-S-D were, according to Lennon, a coincidence.",
-    "hint": "The title contains a woman's name and a gemstone.",
-    "difficulty": "medium"
-  },
-  {
-    "topic": "Music",
-    "question": "What Beatles song begins with the line 'Dear Prudence, won't you come out to play'?",
-    "correct_answer": "Dear Prudence",
-    "answers": ["Dear Prudence", "Martha My Dear", "Lady Madonna", "Julia"],
-    "explanation": "Lennon wrote the song in India about Prudence Farrow, Mia Farrow's sister, who was meditating so intensely during the group's retreat that she wouldn't come outside.",
-    "hint": "The title is a greeting followed by a woman's first name.",
-    "difficulty": "medium"
-  },
-  {
-    "topic": "Music",
-    "question": "What Beatles song begins with the line 'Living is easy with eyes closed'?",
-    "correct_answer": "Strawberry Fields Forever",
-    "answers": ["Strawberry Fields Forever", "Lucy in the Sky with Diamonds", "Across the Universe", "Norwegian Wood"],
-    "explanation": "Strawberry Field was a Salvation Army children's home near where Lennon grew up in Liverpool. He used to climb over the wall to play in the garden.",
-    "hint": "The title refers to a real place in Liverpool.",
-    "difficulty": "medium"
-  },
-  {
-    "topic": "Music",
-    "question": "What Beatles song begins with the line 'Hey Jude, don't make it bad'?",
-    "correct_answer": "Hey Jude",
-    "answers": ["Hey Jude", "Let It Be", "Hello, Goodbye", "All You Need Is Love"],
-    "explanation": "Paul McCartney wrote the song to comfort John Lennon's son Julian during his parents' divorce. The original working title was 'Hey Jules.'",
-    "hint": "The title is a greeting followed by a man's name.",
+    "question": "What Beatles song contains the lyric 'Little darling, it's been a long cold lonely winter'?",
+    "correct_answer": "Here Comes the Sun",
+    "answers": [
+      "Here Comes the Sun",
+      "Good Day Sunshine",
+      "Rain",
+      "Dear Prudence"
+    ],
+    "explanation": "George Harrison wrote the song in Eric Clapton's garden while skipping a business meeting at Apple Corps. It was one of the first songs composed on a Moog synthesizer.",
+    "hint": "The title announces the arrival of something warm and bright.",
     "difficulty": "easy"
   },
   {
     "topic": "Music",
-    "question": "What Beatles song begins with the line 'I once had a girl, or should I say, she once had me'?",
-    "correct_answer": "Norwegian Wood",
-    "answers": ["Norwegian Wood", "Girl", "In My Life", "If I Fell"],
-    "explanation": "Lennon wrote the song about an affair he was having. 'Norwegian Wood' was a joking reference to the cheap pine paneling in the woman's apartment.",
-    "hint": "The title refers to a type of Scandinavian lumber.",
-    "difficulty": "medium"
+    "question": "What Beatles song contains the lyric 'Sleeps pretty well on a bed of nails'?",
+    "correct_answer": "Happiness Is a Warm Gun",
+    "answers": [
+      "Happiness Is a Warm Gun",
+      "Helter Skelter",
+      "Revolution",
+      "Yer Blues"
+    ],
+    "explanation": "Lennon got the title from the cover of a gun magazine that George Martin showed him. The song shifts between four different musical styles in under three minutes.",
+    "hint": "The title is a sentence about joy and a firearm.",
+    "difficulty": "hard"
   },
   {
     "topic": "Music",
-    "question": "What Beatles song begins with the line 'There are places I remember all my life'?",
-    "correct_answer": "In My Life",
-    "answers": ["In My Life", "Yesterday", "The Long and Winding Road", "Penny Lane"],
-    "explanation": "Lennon originally wrote the lyrics as a list of Liverpool landmarks, including Penny Lane and Strawberry Field. He rewrote it as a more personal reflection.",
-    "hint": "The title is a three-word phrase about personal experience.",
-    "difficulty": "medium"
+    "question": "What Beatles song contains the lyric 'Take a sad song and make it better'?",
+    "correct_answer": "Hey Jude",
+    "answers": [
+      "Hey Jude",
+      "Let It Be",
+      "Hello, Goodbye",
+      "All You Need Is Love"
+    ],
+    "explanation": "Paul McCartney wrote the song to comfort John Lennon's son Julian during his parents' divorce. The original working title was 'Hey Jules.'",
+    "hint": "The title is a greeting followed by a man's name.",
+    "difficulty": "easy"
   }
 ]

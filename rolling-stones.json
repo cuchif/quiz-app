@@ -1,92 +1,142 @@
 [
   {
     "topic": "Music",
-    "question": "What Rolling Stones song begins with the line 'I see a red door and I want it painted black'?",
-    "correct_answer": "Paint It Black",
-    "answers": ["Paint It Black", "Sympathy for the Devil", "Gimme Shelter", "Street Fighting Man"],
-    "explanation": "The song features a sitar played by Brian Jones, who taught himself the instrument after hearing it on Beatles records. It reached number one in both the U.S. and the U.K. in 1966.",
-    "hint": "The title is a three-word command involving a color.",
-    "difficulty": "easy"
+    "question": "What Rolling Stones song contains the lyric 'War, children, it's just a shot away'?",
+    "correct_answer": "Gimme Shelter",
+    "answers": [
+      "Gimme Shelter",
+      "Street Fighting Man",
+      "Sympathy for the Devil",
+      "Paint It Black"
+    ],
+    "explanation": "The female vocal is by Merry Clayton, who was called to the studio late at night while pregnant. She sang with such intensity that her voice cracks audibly during the recording.",
+    "hint": "The title is a demand for protection or a safe place.",
+    "difficulty": "medium"
   },
   {
     "topic": "Music",
-    "question": "What Rolling Stones song begins with the line 'Please allow me to introduce myself, I'm a man of wealth and taste'?",
+    "question": "What Rolling Stones song contains the lyric 'Am I hard enough, am I rough enough'?",
+    "correct_answer": "Beast of Burden",
+    "answers": [
+      "Beast of Burden",
+      "Wild Horses",
+      "Miss You",
+      "Start Me Up"
+    ],
+    "explanation": "Mick Jagger wrote the lyrics as a plea to a woman, but the title came from a joking comment Keith Richards made about their working relationship.",
+    "hint": "The title is a phrase meaning a creature used for heavy labor.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Music",
+    "question": "What Rolling Stones song contains the lyric 'Pleased to meet you, hope you guess my name'?",
     "correct_answer": "Sympathy for the Devil",
-    "answers": ["Sympathy for the Devil", "Paint It Black", "Midnight Rambler", "Dancing with Mr. D"],
+    "answers": [
+      "Sympathy for the Devil",
+      "Paint It Black",
+      "Midnight Rambler",
+      "Dancing with Mr. D"
+    ],
     "explanation": "Mick Jagger was inspired by Mikhail Bulgakov's novel The Master and Margarita, in which the Devil visits Moscow. The song's percussion was recorded as a samba rhythm.",
     "hint": "The title expresses feeling sorry for a very evil figure.",
     "difficulty": "easy"
   },
   {
     "topic": "Music",
-    "question": "What Rolling Stones song begins with the line 'I can't get no satisfaction'?",
+    "question": "What Rolling Stones song contains the lyric 'I look inside myself and see my heart is black'?",
+    "correct_answer": "Paint It Black",
+    "answers": [
+      "Paint It Black",
+      "Gimme Shelter",
+      "Under My Thumb",
+      "19th Nervous Breakdown"
+    ],
+    "explanation": "The song features a sitar played by Brian Jones, who taught himself the instrument after hearing it on Beatles records. It reached number one in both the U.S. and the U.K. in 1966.",
+    "hint": "The title is a three-word command involving a dark color.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Music",
+    "question": "What Rolling Stones song contains the lyric 'And I try and I try and I try and I try'?",
     "correct_answer": "(I Can't Get No) Satisfaction",
-    "answers": ["(I Can't Get No) Satisfaction", "Get Off of My Cloud", "Jumpin' Jack Flash", "It's Only Rock 'n Roll"],
+    "answers": [
+      "(I Can't Get No) Satisfaction",
+      "Get Off of My Cloud",
+      "Jumpin' Jack Flash",
+      "It's Only Rock 'n Roll"
+    ],
     "explanation": "Keith Richards came up with the guitar riff in his sleep. He recorded it on a cassette player next to his bed, fell back asleep, and found it the next morning.",
     "hint": "The title is about not being able to find fulfillment.",
     "difficulty": "easy"
   },
   {
     "topic": "Music",
-    "question": "What Rolling Stones song begins with the line 'Oh, a storm is threatening my very life today'?",
-    "correct_answer": "Gimme Shelter",
-    "answers": ["Gimme Shelter", "Paint It Black", "Wild Horses", "You Can't Always Get What You Want"],
-    "explanation": "The female vocal on the song is by Merry Clayton, who was called to the studio late at night while pregnant. She sang with such intensity that her voice cracks audibly during the recording.",
-    "hint": "The title is a demand for protection or a safe place.",
-    "difficulty": "medium"
-  },
-  {
-    "topic": "Music",
-    "question": "What Rolling Stones song begins with the line 'Childhood living is easy to do'?",
-    "correct_answer": "Wild Horses",
-    "answers": ["Wild Horses", "Angie", "Ruby Tuesday", "As Tears Go By"],
-    "explanation": "Keith Richards wrote the song around the time his son Marlon was born. He didn't want to leave for the studio, and the phrase 'wild horses couldn't drag me away' came from that feeling.",
-    "hint": "The title refers to untamed animals.",
-    "difficulty": "medium"
-  },
-  {
-    "topic": "Music",
-    "question": "What Rolling Stones song begins with the line 'I said hey, you, get off of my cloud'?",
-    "correct_answer": "Get Off of My Cloud",
-    "answers": ["Get Off of My Cloud", "(I Can't Get No) Satisfaction", "19th Nervous Breakdown", "Have You Seen Your Mother, Baby"],
-    "explanation": "The song was released in 1965 as the follow-up single to 'Satisfaction.' Jagger later said the song was about people invading his personal space after the band became famous.",
-    "hint": "The title tells someone to leave you alone, using a weather word.",
-    "difficulty": "medium"
-  },
-  {
-    "topic": "Music",
-    "question": "What Rolling Stones song begins with the line 'She would never say where she came from'?",
+    "question": "What Rolling Stones song contains the lyric 'Lose your dreams and you will lose your mind'?",
     "correct_answer": "Ruby Tuesday",
-    "answers": ["Ruby Tuesday", "Lady Jane", "Angie", "Miss You"],
+    "answers": [
+      "Ruby Tuesday",
+      "Lady Jane",
+      "As Tears Go By",
+      "Angie"
+    ],
     "explanation": "Keith Richards wrote the song about a girlfriend who was always coming and going without explanation. It hit number one in the U.S. in 1967.",
     "hint": "The title is a woman's name followed by a day of the week.",
     "difficulty": "medium"
   },
   {
     "topic": "Music",
-    "question": "What Rolling Stones song begins with the line 'I saw her today at the reception'?",
+    "question": "What Rolling Stones song contains the lyric 'But if you try sometimes, well, you just might find you get what you need'?",
     "correct_answer": "You Can't Always Get What You Want",
-    "answers": ["You Can't Always Get What You Want", "Miss You", "Angie", "Start Me Up"],
+    "answers": [
+      "You Can't Always Get What You Want",
+      "Satisfaction",
+      "Wild Horses",
+      "Miss You"
+    ],
     "explanation": "The song opens with the Bach Choir singing a choral arrangement, recorded at Olympic Studios in London. The choir members had no idea who the Rolling Stones were.",
     "hint": "The title is a lesson about expectations versus reality.",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "topic": "Music",
-    "question": "What Rolling Stones song begins with the line 'I was born in a crossfire hurricane'?",
+    "question": "What Rolling Stones song contains the lyric 'I was raised by a toothless, bearded hag'?",
     "correct_answer": "Jumpin' Jack Flash",
-    "answers": ["Jumpin' Jack Flash", "Street Fighting Man", "Sympathy for the Devil", "Brown Sugar"],
+    "answers": [
+      "Jumpin' Jack Flash",
+      "Street Fighting Man",
+      "Sympathy for the Devil",
+      "Brown Sugar"
+    ],
     "explanation": "The name came from Keith Richards' gardener, Jack Dyer, whose footsteps woke Jagger one morning. When Jagger asked what the noise was, Richards said, 'Oh, that's jumpin' Jack.'",
     "hint": "The title is a man's nickname followed by a word for a burst of light.",
     "difficulty": "medium"
   },
   {
     "topic": "Music",
-    "question": "What Rolling Stones song begins with the line 'Angie, Angie, when will those clouds all disappear'?",
-    "correct_answer": "Angie",
-    "answers": ["Angie", "Ruby Tuesday", "Wild Horses", "As Tears Go By"],
-    "explanation": "Despite widespread speculation, Jagger and Richards have both said the song is not about any specific person. Richards wrote it while recovering from a heroin addiction in Switzerland.",
-    "hint": "The title is a woman's first name.",
-    "difficulty": "easy"
+    "question": "What Rolling Stones song contains the lyric 'You make a dead man come'?",
+    "correct_answer": "Start Me Up",
+    "answers": [
+      "Start Me Up",
+      "Jumpin' Jack Flash",
+      "It's Only Rock 'n Roll",
+      "Brown Sugar"
+    ],
+    "explanation": "The song was originally recorded as a reggae track during the Some Girls sessions in 1977. It sat unreleased for four years before the band reworked it as a rock song.",
+    "hint": "The three-word title is about getting going.",
+    "difficulty": "hard"
+  },
+  {
+    "topic": "Music",
+    "question": "What Rolling Stones song contains the lyric 'I was dreaming of a steel guitar engagement'?",
+    "correct_answer": "Wild Horses",
+    "answers": [
+      "Wild Horses",
+      "Angie",
+      "Ruby Tuesday",
+      "As Tears Go By"
+    ],
+    "explanation": "Keith Richards wrote the song around the time his son Marlon was born. He didn't want to leave for the studio, and the phrase 'wild horses couldn't drag me away' came from that feeling.",
+    "hint": "The title refers to untamed animals.",
+    "difficulty": "hard"
   }
 ]
