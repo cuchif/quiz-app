@@ -483,47 +483,25 @@ function playBoing() {
   const ctx = new (window.AudioContext || window.webkitAudioContext)();
   const t = ctx.currentTime;
 
-  // Main springy oscillator — bounces and ends going UP
-  const osc1 = ctx.createOscillator();
-  const gain1 = ctx.createGain();
-  osc1.connect(gain1);
-  gain1.connect(ctx.destination);
-  osc1.type = 'sine';
-  osc1.frequency.setValueAtTime(800, t);
-  osc1.frequency.exponentialRampToValueAtTime(200, t + 0.15);
-  osc1.frequency.exponentialRampToValueAtTime(500, t + 0.3);
-  osc1.frequency.exponentialRampToValueAtTime(150, t + 0.5);
-  osc1.frequency.exponentialRampToValueAtTime(600, t + 0.75);
-  osc1.frequency.exponentialRampToValueAtTime(900, t + 0.9);
-  gain1.gain.setValueAtTime(0.6, t);
-  gain1.gain.setValueAtTime(0.5, t + 0.7);
-  gain1.gain.exponentialRampToValueAtTime(0.01, t + 1.0);
-  osc1.start(t);
-  osc1.stop(t + 1.0);
-
-  // Second oscillator for wobble
-  const osc2 = ctx.createOscillator();
-  const gain2 = ctx.createGain();
-  osc2.connect(gain2);
-  gain2.connect(ctx.destination);
-  osc2.type = 'triangle';
-  osc2.frequency.setValueAtTime(750, t);
-  osc2.frequency.exponentialRampToValueAtTime(180, t + 0.15);
-  osc2.frequency.exponentialRampToValueAtTime(450, t + 0.3);
-  osc2.frequency.exponentialRampToValueAtTime(130, t + 0.5);
-  osc2.frequency.exponentialRampToValueAtTime(550, t + 0.75);
-  osc2.frequency.exponentialRampToValueAtTime(850, t + 0.9);
-  gain2.gain.setValueAtTime(0.3, t);
-  gain2.gain.setValueAtTime(0.25, t + 0.7);
-  gain2.gain.exponentialRampToValueAtTime(0.01, t + 1.0);
-  osc2.start(t);
-  osc2.stop(t + 1.0);
+  // Single bounce — drops down then swoops back up
+  const osc = ctx.createOscillator();
+  const gain = ctx.createGain();
+  osc.connect(gain);
+  gain.connect(ctx.destination);
+  osc.type = 'sine';
+  osc.frequency.setValueAtTime(500, t);
+  osc.frequency.exponentialRampToValueAtTime(120, t + 0.2);
+  osc.frequency.exponentialRampToValueAtTime(700, t + 0.45);
+  gain.gain.setValueAtTime(0.5, t);
+  gain.gain.exponentialRampToValueAtTime(0.01, t + 0.55);
+  osc.start(t);
+  osc.stop(t + 0.55);
 }
 
 function playTwinkle() {
   const ctx = new (window.AudioContext || window.webkitAudioContext)();
   const t = ctx.currentTime;
-  const notes = [1200, 1500, 1800, 2200, 2600];
+  const notes = [1800, 2100, 2400, 2700];
 
   notes.forEach((freq, i) => {
     const osc = ctx.createOscillator();
@@ -531,26 +509,26 @@ function playTwinkle() {
     osc.connect(gain);
     gain.connect(ctx.destination);
     osc.type = 'sine';
-    const start = t + i * 0.12;
+    const start = t + i * 0.15;
     osc.frequency.setValueAtTime(freq, start);
     gain.gain.setValueAtTime(0, start);
-    gain.gain.linearRampToValueAtTime(0.3, start + 0.03);
-    gain.gain.exponentialRampToValueAtTime(0.01, start + 0.25);
+    gain.gain.linearRampToValueAtTime(0.12, start + 0.03);
+    gain.gain.exponentialRampToValueAtTime(0.01, start + 0.4);
     osc.start(start);
-    osc.stop(start + 0.25);
+    osc.stop(start + 0.4);
 
-    // Add a shimmer overtone
+    // Soft shimmer overtone
     const osc2 = ctx.createOscillator();
     const gain2 = ctx.createGain();
     osc2.connect(gain2);
     gain2.connect(ctx.destination);
     osc2.type = 'sine';
-    osc2.frequency.setValueAtTime(freq * 2.5, start);
+    osc2.frequency.setValueAtTime(freq * 3, start + 0.02);
     gain2.gain.setValueAtTime(0, start);
-    gain2.gain.linearRampToValueAtTime(0.1, start + 0.02);
-    gain2.gain.exponentialRampToValueAtTime(0.01, start + 0.15);
+    gain2.gain.linearRampToValueAtTime(0.04, start + 0.03);
+    gain2.gain.exponentialRampToValueAtTime(0.01, start + 0.25);
     osc2.start(start);
-    osc2.stop(start + 0.15);
+    osc2.stop(start + 0.25);
   });
 }
 
