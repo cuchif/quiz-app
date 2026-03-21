@@ -120,7 +120,7 @@
   }
   .answer-btn.selected { border-color: #7c5cfc; background: rgba(124,92,252,0.12); }
   .answer-btn.selected .letter { background: #7c5cfc; color: #fff; }
-  .answer-btn.correct { border-color: #66bb6a; background: rgba(76,175,80,0.12); animation: flash-green 0.5s ease 4; }
+  .answer-btn.correct { border-color: #66bb6a; background: rgba(76,175,80,0.12); animation: flash-green 0.5s ease infinite; }
   .answer-btn.correct .letter { background: #66bb6a; color: #fff; }
   .answer-btn.wrong { border-color: #ef5350; background: rgba(239,83,80,0.08); }
   .answer-btn.wrong .letter { background: #ef5350; color: #fff; }
@@ -206,7 +206,7 @@
     50% { border-color: #a5d6a7; background: rgba(76,175,80,0.3); }
   }
   .answer-btn.flash-correct {
-    animation: flash-green 0.5s ease 4;
+    animation: flash-green 0.5s ease infinite;
     border-color: #66bb6a;
     background: rgba(76,175,80,0.12);
   }
@@ -401,7 +401,16 @@ function handleAnswer(btn, answer) {
       });
 
       document.getElementById('hintNo').addEventListener('click', () => {
-        endQuestionWrong(q);
+        document.getElementById('hintOffer').innerHTML = `Do you want to guess again?<br>
+          <button class="hint-offer-btn hint-yes" id="guessYes">Yes</button>
+          <button class="hint-offer-btn hint-no" id="guessNo">No</button>`;
+        document.getElementById('guessYes').addEventListener('click', () => {
+          document.getElementById('hintOffer').remove();
+          document.querySelectorAll('.answer-btn').forEach(b => { if (b._wasEnabled) b.disabled = false; });
+        });
+        document.getElementById('guessNo').addEventListener('click', () => {
+          endQuestionWrong(q);
+        });
       });
 
     } else if (attempts === 2) {
@@ -449,7 +458,16 @@ function handleAnswer(btn, answer) {
       });
 
       document.getElementById('hintNo2').addEventListener('click', () => {
-        endQuestionWrong(q);
+        document.getElementById('hintOffer2').innerHTML = `Do you want to guess again?<br>
+          <button class="hint-offer-btn hint-yes" id="guessYes2">Yes</button>
+          <button class="hint-offer-btn hint-no" id="guessNo2">No</button>`;
+        document.getElementById('guessYes2').addEventListener('click', () => {
+          document.getElementById('hintOffer2').remove();
+          document.querySelectorAll('.answer-btn').forEach(b => { if (b._wasEnabled) b.disabled = false; });
+        });
+        document.getElementById('guessNo2').addEventListener('click', () => {
+          endQuestionWrong(q);
+        });
       });
 
     } else {
