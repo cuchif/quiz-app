@@ -1,0 +1,92 @@
+[
+  {
+    "topic": "Music",
+    "question": "What Doors song begins with the line 'You know that it would be untrue'?",
+    "correct_answer": "Light My Fire",
+    "answers": ["Light My Fire", "Break On Through", "Riders on the Storm", "The End"],
+    "explanation": "Robby Krieger wrote most of the song, not Jim Morrison. The album version runs over seven minutes, but the single was edited down to under three for radio.",
+    "hint": "The title is a three-word request involving flames.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Music",
+    "question": "What Doors song begins with the line 'You know the day destroys the night'?",
+    "correct_answer": "Break On Through (To the Other Side)",
+    "answers": ["Break On Through (To the Other Side)", "Light My Fire", "Roadhouse Blues", "People Are Strange"],
+    "explanation": "It was the first track on the Doors' 1967 debut album and their first single. The original recording included the word 'high,' which was censored for the radio release.",
+    "hint": "The title is about pushing past a barrier.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Music",
+    "question": "What Doors song begins with the line 'Riders on the storm, riders on the storm'?",
+    "correct_answer": "Riders on the Storm",
+    "answers": ["Riders on the Storm", "The End", "L.A. Woman", "Waiting for the Sun"],
+    "explanation": "It was the last song the Doors recorded with Jim Morrison. He died in Paris three weeks after the album was released. The rain and thunder sound effects were added in the studio.",
+    "hint": "The title describes people traveling through bad weather.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Music",
+    "question": "What Doors song begins with the line 'This is the end, beautiful friend'?",
+    "correct_answer": "The End",
+    "answers": ["The End", "Riders on the Storm", "When the Music's Over", "The Crystal Ship"],
+    "explanation": "The song runs nearly 12 minutes. Francis Ford Coppola used it in the opening and closing sequences of Apocalypse Now, bringing it to a new generation of listeners in 1979.",
+    "hint": "The two-word title refers to a conclusion or finale.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Music",
+    "question": "What Doors song begins with the line 'People are strange when you're a stranger'?",
+    "correct_answer": "People Are Strange",
+    "answers": ["People Are Strange", "Strange Days", "Moonlight Drive", "Love Her Madly"],
+    "explanation": "Robby Krieger and Jim Morrison wrote the song after Morrison took a depressed walk through Laurel Canyon in Los Angeles. By the time they came back down the hill, the song was finished.",
+    "hint": "The title is a three-word observation about human behavior.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Music",
+    "question": "What Doors song begins with the line 'Keep your eyes on the road, your hands upon the wheel'?",
+    "correct_answer": "Roadhouse Blues",
+    "answers": ["Roadhouse Blues", "L.A. Woman", "Love Her Madly", "Break On Through (To the Other Side)"],
+    "explanation": "The song was recorded in just a few takes. Lonnie Mack played bass on the track, and John Sebastian of the Lovin' Spoonful played harmonica, credited as 'G. Puglese' to avoid contract issues.",
+    "hint": "The title combines a type of highway bar with a music genre.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Music",
+    "question": "What Doors song begins with the line 'When the music's over, turn out the lights'?",
+    "correct_answer": "When the Music's Over",
+    "answers": ["When the Music's Over", "The End", "Soul Kitchen", "The Soft Parade"],
+    "explanation": "The song runs over 11 minutes and closes Side B of the 1967 album Strange Days. Morrison screams 'We want the world and we want it now!' near the end.",
+    "hint": "The title describes what to do after the last song plays.",
+    "difficulty": "hard"
+  },
+  {
+    "topic": "Music",
+    "question": "What Doors song begins with the line 'Hello, I love you, won't you tell me your name'?",
+    "correct_answer": "Hello, I Love You",
+    "answers": ["Hello, I Love You", "Touch Me", "Love Her Madly", "Love Me Two Times"],
+    "explanation": "Morrison wrote the song after seeing a girl walking on the beach in Venice, California. The guitar riff has been compared to the Kinks' 'All Day and All of the Night,' which came out four years earlier.",
+    "hint": "The title is a greeting followed by a declaration of affection.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Music",
+    "question": "What Doors song begins with the line 'Before you slip into unconsciousness'?",
+    "correct_answer": "The Crystal Ship",
+    "answers": ["The Crystal Ship", "The End", "Moonlight Drive", "End of the Night"],
+    "explanation": "Morrison wrote the song about a breakup with his girlfriend Mary Werbelow. It was the B-side to 'Light My Fire' and appears on the Doors' 1967 debut album.",
+    "hint": "The title refers to a transparent vessel that sails.",
+    "difficulty": "hard"
+  },
+  {
+    "topic": "Music",
+    "question": "What Doors song begins with the line 'Well, show me the way to the next whiskey bar'?",
+    "correct_answer": "Alabama Song (Whisky Bar)",
+    "answers": ["Alabama Song (Whisky Bar)", "Roadhouse Blues", "Back Door Man", "Who Do You Love"],
+    "explanation": "The Doors didn't write this song. It was originally composed by Kurt Weill and Bertolt Brecht for their 1930 opera Rise and Fall of the City of Mahagonny.",
+    "hint": "The title includes the name of a U.S. state.",
+    "difficulty": "hard"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "topic": "Music",
+    "question": "What Beatles song begins with the line 'When I find myself in times of trouble'?",
+    "correct_answer": "Let It Be",
+    "answers": ["Let It Be", "Hey Jude", "The Long and Winding Road", "Across the Universe"],
+    "explanation": "Paul McCartney wrote 'Let It Be' after a dream in which his mother Mary, who died when he was 14, came to him and told him everything would be all right.",
+    "hint": "The title is a three-word phrase meaning 'don't worry about it.'",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Music",
+    "question": "What Beatles song begins with the line 'Is there anybody going to listen to my story'?",
+    "correct_answer": "Girl",
+    "answers": ["Girl", "Norwegian Wood", "Michelle", "And I Love Her"],
+    "explanation": "John Lennon wrote 'Girl' for the 1965 album Rubber Soul. The sharp intake of breath between verses was meant to sound like someone inhaling.",
+    "hint": "The title is a single, common English word for a young woman.",
+    "difficulty": "hard"
+  },
+  {
+    "topic": "Music",
+    "question": "What Beatles song begins with the line 'Yesterday, all my troubles seemed so far away'?",
+    "correct_answer": "Yesterday",
+    "answers": ["Yesterday", "In My Life", "Let It Be", "The Long and Winding Road"],
+    "explanation": "Paul McCartney says the melody came to him in a dream. He initially used the placeholder lyrics 'Scrambled eggs, oh my baby how I love your legs' until he wrote the real words.",
+    "hint": "The title is the day before today.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Music",
+    "question": "What Beatles song begins with the line 'I read the news today, oh boy'?",
+    "correct_answer": "A Day in the Life",
+    "answers": ["A Day in the Life", "Strawberry Fields Forever", "I Am the Walrus", "Revolution"],
+    "explanation": "The song closes out the 1967 album Sgt. Pepper's Lonely Hearts Club Band. The final piano chord was played on three pianos simultaneously and left to ring for over 40 seconds.",
+    "hint": "The title describes a 24-hour period.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Music",
+    "question": "What Beatles song begins with the line 'Picture yourself in a boat on a river'?",
+    "correct_answer": "Lucy in the Sky with Diamonds",
+    "answers": ["Lucy in the Sky with Diamonds", "Strawberry Fields Forever", "Across the Universe", "Being for the Benefit of Mr. Kite!"],
+    "explanation": "John Lennon said the song was inspired by a drawing his son Julian brought home from school. The initials L-S-D were, according to Lennon, a coincidence.",
+    "hint": "The title contains a woman's name and a gemstone.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Music",
+    "question": "What Beatles song begins with the line 'Dear Prudence, won't you come out to play'?",
+    "correct_answer": "Dear Prudence",
+    "answers": ["Dear Prudence", "Martha My Dear", "Lady Madonna", "Julia"],
+    "explanation": "Lennon wrote the song in India about Prudence Farrow, Mia Farrow's sister, who was meditating so intensely during the group's retreat that she wouldn't come outside.",
+    "hint": "The title is a greeting followed by a woman's first name.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Music",
+    "question": "What Beatles song begins with the line 'Living is easy with eyes closed'?",
+    "correct_answer": "Strawberry Fields Forever",
+    "answers": ["Strawberry Fields Forever", "Lucy in the Sky with Diamonds", "Across the Universe", "Norwegian Wood"],
+    "explanation": "Strawberry Field was a Salvation Army children's home near where Lennon grew up in Liverpool. He used to climb over the wall to play in the garden.",
+    "hint": "The title refers to a real place in Liverpool.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Music",
+    "question": "What Beatles song begins with the line 'Hey Jude, don't make it bad'?",
+    "correct_answer": "Hey Jude",
+    "answers": ["Hey Jude", "Let It Be", "Hello, Goodbye", "All You Need Is Love"],
+    "explanation": "Paul McCartney wrote the song to comfort John Lennon's son Julian during his parents' divorce. The original working title was 'Hey Jules.'",
+    "hint": "The title is a greeting followed by a man's name.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Music",
+    "question": "What Beatles song begins with the line 'I once had a girl, or should I say, she once had me'?",
+    "correct_answer": "Norwegian Wood",
+    "answers": ["Norwegian Wood", "Girl", "In My Life", "If I Fell"],
+    "explanation": "Lennon wrote the song about an affair he was having. 'Norwegian Wood' was a joking reference to the cheap pine paneling in the woman's apartment.",
+    "hint": "The title refers to a type of Scandinavian lumber.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Music",
+    "question": "What Beatles song begins with the line 'There are places I remember all my life'?",
+    "correct_answer": "In My Life",
+    "answers": ["In My Life", "Yesterday", "The Long and Winding Road", "Penny Lane"],
+    "explanation": "Lennon originally wrote the lyrics as a list of Liverpool landmarks, including Penny Lane and Strawberry Field. He rewrote it as a more personal reflection.",
+    "hint": "The title is a three-word phrase about personal experience.",
+    "difficulty": "medium"
+  }
+]
