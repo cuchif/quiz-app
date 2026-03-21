@@ -200,6 +200,32 @@
   .results .stats { color: #666; font-size: 0.95rem; margin-bottom: 1.5rem; line-height: 1.8; }
 
   .hidden { display: none !important; }
+
+  @keyframes flash-green {
+    0%, 100% { border-color: #66bb6a; background: rgba(76,175,80,0.12); }
+    50% { border-color: #a5d6a7; background: rgba(76,175,80,0.3); }
+  }
+  .answer-btn.flash-correct {
+    animation: flash-green 0.5s ease 4;
+    border-color: #66bb6a;
+    background: rgba(76,175,80,0.12);
+  }
+  .answer-btn.flash-correct .letter { background: #66bb6a; color: #fff; }
+
+  .hint-offer-btn {
+    display: inline-block;
+    padding: 0.5rem 1.2rem;
+    font-size: 0.95rem;
+    font-family: inherit;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0.5rem 0.3rem 0 0;
+    transition: transform 0.1s, opacity 0.2s;
+  }
+  .hint-offer-btn:hover { opacity: 0.9; transform: translateY(-1px); }
+  .hint-yes { background: #f7c948; color: #111; font-weight: 600; }
+  .hint-no { background: #2a2d3a; color: #ccc; }
 </style>
 </head>
 <body>
@@ -354,59 +380,88 @@ function handleAnswer(btn, answer) {
 
     document.getElementById('attemptsCounter').textContent = `Attempts: ${attempts}`;
 
-    // Show hint after first wrong answer
+    // Disable answer buttons while hint offer is showing
+    document.querySelectorAll('.answer-btn').forEach(b => { if (!b.disabled) b.disabled = true; b._wasEnabled = !b.classList.contains('dimmed'); });
+
     const hintArea = document.getElementById('hintArea');
     hintArea.style.display = 'block';
 
-    if (attempts === 1) {
-      hintArea.innerHTML = `<div class="hint-box"><span class="hint-label">Hint 1:</span> ${q.hint}</div>`;
-    } else if (attempts === 2) {
-      // Scramble the correct answer into a single anagram (no spaces)
-      const chars = q.correct_answer.replace(/\s+/g, '').toLowerCase().split('');
-      for (let i = chars.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [chars[i], chars[j]] = [chars[j], chars[i]];
-      }
-      let anagram = chars.join('');
-      // Make sure it's not accidentally the same as the answer without spaces
-      if (anagram === q.correct_answer.replace(/\s+/g, '').toLowerCase()) {
-        anagram = chars.reverse().join('');
-      }
-      hintArea.innerHTML += `<div class="hint-box" id="anagramBox"><span class="hint-label">Hint 2:</span> This anagram of the correct answer will disappear in 2 secs: <strong>${anagram}</strong></div>`;
-      // Wait ~1.5s for player to read the intro, then start 2-second countdown
-      setTimeout(() => {
-        if (answered) return;
-        let timeLeft = 2;
-        const anagramInterval = setInterval(() => {
-          timeLeft--;
-          if (timeLeft <= 0) {
-            clearInterval(anagramInterval);
-            const box = document.getElementById('anagramBox');
-            if (box) {
-              box.innerHTML = '<span class="hint-label">Hint 2:</span> The two seconds are up. You can choose your answer now.';
-            }
-          }
-        }, 1000);
-      }, 1500);
-    } else {
-      // 3rd+ wrong answer — end the question, show correct answer
-      answered = true;
-      streak = 0;
-      disableAllButtons();
-      const allBtns = document.querySelectorAll('.answer-btn');
-      allBtns.forEach(b => {
-        if (b.dataset.answer === q.correct_answer) b.classList.add('correct');
-      });
-      const fb = document.getElementById('feedbackArea');
-      fb.style.display = 'block';
-      fb.innerHTML = `<div class="feedback-box" style="background:rgba(239,83,80,0.1);border:1px solid #c62828;color:#ef9a9a;">
-        <div class="fb-title" style="color:#ef5350;">Wrong. The answer was: ${q.correct_answer}</div>
-        <div class="fb-explain">${q.explanation}</div>
+    if (attempts <= 2) {
+      const hintCost = 1;
+      const hintNum = attempts;
+      hintArea.innerHTML += `<div class="hint-box" id="hintOffer">Do you want a hint? It will cost ${hintCost} point.<br>
+        <button class="hint-offer-btn hint-yes" id="hintYes">Yes</button>
+        <button class="hint-offer-btn hint-no" id="hintNo">No</button>
       </div>`;
-      showNextButton();
-      updateScoreDisplay();
+
+      document.getElementById('hintYes').addEventListener('click', () => {
+        score = Math.max(0, score - hintCost);
+        updateScoreDisplay();
+        const offer = document.getElementById('hintOffer');
+
+        if (hintNum === 1) {
+          offer.innerHTML = `<span class="hint-label">Hint 1:</span> ${q.hint}`;
+        } else {
+          // Anagram hint
+          const chars = q.correct_answer.replace(/\\s+/g, '').toLowerCase().split('');
+          for (let i = chars.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [chars[i], chars[j]] = [chars[j], chars[i]];
+          }
+          let anagram = chars.join('');
+          if (anagram === q.correct_answer.replace(/\\s+/g, '').toLowerCase()) {
+            anagram = chars.reverse().join('');
+          }
+          offer.id = 'anagramBox';
+          offer.innerHTML = `<span class="hint-label">Hint 2:</span> This anagram of the correct answer will disappear in 2 secs: <strong>${anagram}</strong>`;
+          setTimeout(() => {
+            if (answered) return;
+            let timeLeft = 2;
+            const anagramInterval = setInterval(() => {
+              timeLeft--;
+              if (timeLeft <= 0) {
+                clearInterval(anagramInterval);
+                const box = document.getElementById('anagramBox');
+                if (box) {
+                  box.innerHTML = '<span class="hint-label">Hint 2:</span> The two seconds are up. You can choose your answer now.';
+                }
+              }
+            }, 1000);
+          }, 1500);
+        }
+        // Re-enable remaining answer buttons
+        document.querySelectorAll('.answer-btn').forEach(b => { if (b._wasEnabled) b.disabled = false; });
+      });
+
+      document.getElementById('hintNo').addEventListener('click', () => {
+        // No hint — end the question, flash correct answer
+        endQuestionWrong(q);
+      });
+    } else {
+      // 3rd+ wrong answer — end the question
+      endQuestionWrong(q);
     }
   }
+}
+
+function endQuestionWrong(q) {
+  answered = true;
+  streak = 0;
+  disableAllButtons();
+  const allBtns = document.querySelectorAll('.answer-btn');
+  allBtns.forEach(b => {
+    if (b.dataset.answer === q.correct_answer) {
+      b.classList.add('flash-correct');
+    }
+  });
+  const fb = document.getElementById('feedbackArea');
+  fb.style.display = 'block';
+  fb.innerHTML = `<div class="feedback-box" style="background:rgba(239,83,80,0.1);border:1px solid #c62828;color:#ef9a9a;">
+    <div class="fb-title" style="color:#ef5350;">Wrong. The answer was: ${q.correct_answer}</div>
+    <div class="fb-explain">${q.explanation}</div>
+  </div>`;
+  showNextButton();
+  updateScoreDisplay();
 }
 
 function disableAllButtons() {
