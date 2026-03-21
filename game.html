@@ -481,17 +481,42 @@ function handleAnswer(btn, answer) {
 
 function playBoing() {
   const ctx = new (window.AudioContext || window.webkitAudioContext)();
-  const osc = ctx.createOscillator();
-  const gain = ctx.createGain();
-  osc.connect(gain);
-  gain.connect(ctx.destination);
-  osc.type = 'sine';
-  osc.frequency.setValueAtTime(600, ctx.currentTime);
-  osc.frequency.exponentialRampToValueAtTime(150, ctx.currentTime + 0.3);
-  gain.gain.setValueAtTime(0.5, ctx.currentTime);
-  gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.4);
-  osc.start(ctx.currentTime);
-  osc.stop(ctx.currentTime + 0.4);
+  const t = ctx.currentTime;
+
+  // Main springy oscillator — bounces up and down
+  const osc1 = ctx.createOscillator();
+  const gain1 = ctx.createGain();
+  osc1.connect(gain1);
+  gain1.connect(ctx.destination);
+  osc1.type = 'sine';
+  // Start high, drop low, bounce back up, settle down
+  osc1.frequency.setValueAtTime(800, t);
+  osc1.frequency.exponentialRampToValueAtTime(200, t + 0.15);
+  osc1.frequency.exponentialRampToValueAtTime(500, t + 0.3);
+  osc1.frequency.exponentialRampToValueAtTime(150, t + 0.5);
+  osc1.frequency.exponentialRampToValueAtTime(300, t + 0.65);
+  osc1.frequency.exponentialRampToValueAtTime(80, t + 0.9);
+  gain1.gain.setValueAtTime(0.6, t);
+  gain1.gain.exponentialRampToValueAtTime(0.01, t + 0.9);
+  osc1.start(t);
+  osc1.stop(t + 0.9);
+
+  // Second oscillator for wobble/thickness
+  const osc2 = ctx.createOscillator();
+  const gain2 = ctx.createGain();
+  osc2.connect(gain2);
+  gain2.connect(ctx.destination);
+  osc2.type = 'triangle';
+  osc2.frequency.setValueAtTime(750, t);
+  osc2.frequency.exponentialRampToValueAtTime(180, t + 0.15);
+  osc2.frequency.exponentialRampToValueAtTime(450, t + 0.3);
+  osc2.frequency.exponentialRampToValueAtTime(130, t + 0.5);
+  osc2.frequency.exponentialRampToValueAtTime(270, t + 0.65);
+  osc2.frequency.exponentialRampToValueAtTime(70, t + 0.9);
+  gain2.gain.setValueAtTime(0.3, t);
+  gain2.gain.exponentialRampToValueAtTime(0.01, t + 0.9);
+  osc2.start(t);
+  osc2.stop(t + 0.9);
 }
 
 function endQuestionWrong(q) {
