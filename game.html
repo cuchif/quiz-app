@@ -406,7 +406,7 @@ function handleAnswer(btn, answer) {
             clearInterval(anagramInterval);
             const box = document.getElementById('anagramBox');
             if (box) {
-              box.innerHTML = 'The two seconds are up. You can choose your answer now.';
+              box.remove();
             }
           }
         }, 1000);
