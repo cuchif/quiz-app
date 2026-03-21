@@ -388,6 +388,23 @@ function handleAnswer(btn, answer) {
           }
         }, 1000);
       }, 1500);
+    } else {
+      // 3rd+ wrong answer — end the question, show correct answer
+      answered = true;
+      streak = 0;
+      disableAllButtons();
+      const allBtns = document.querySelectorAll('.answer-btn');
+      allBtns.forEach(b => {
+        if (b.dataset.answer === q.correct_answer) b.classList.add('correct');
+      });
+      const fb = document.getElementById('feedbackArea');
+      fb.style.display = 'block';
+      fb.innerHTML = `<div class="feedback-box" style="background:rgba(239,83,80,0.1);border:1px solid #c62828;color:#ef9a9a;">
+        <div class="fb-title" style="color:#ef5350;">Wrong. The answer was: ${q.correct_answer}</div>
+        <div class="fb-explain">${q.explanation}</div>
+      </div>`;
+      showNextButton();
+      updateScoreDisplay();
     }
   }
 }
