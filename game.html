@@ -387,13 +387,13 @@ function handleAnswer(btn, answer) {
       hintArea.innerHTML = `<div class="hint-box"><span class="hint-label">Hint:</span> ${q.hint}</div>`;
     } else if (attempts === 2) {
       // Build anagram
-      const chars = q.correct_answer.replace(/\s+/g, '').toLowerCase().split('');
+      const chars = q.correct_answer.replace(/[\s'"\?\!\.\,\-\(\)]/g, '').toLowerCase().split('');
       for (let i = chars.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [chars[i], chars[j]] = [chars[j], chars[i]];
       }
       let anagram = chars.join('');
-      if (anagram === q.correct_answer.replace(/\s+/g, '').toLowerCase()) {
+      if (anagram === q.correct_answer.replace(/[\s'"\?\!\.\,\-\(\)]/g, '').toLowerCase()) {
         anagram = chars.reverse().join('');
       }
       hintArea.innerHTML += `<div class="hint-box" id="anagramBox">This anagram of the correct answer will disappear in 3 secs: <strong>${anagram}</strong></div>`;
