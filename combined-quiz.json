@@ -16,7 +16,7 @@
   },
   {
     "topic": "Music",
-    "question": "What Beatles song contains the lyric 'Scrambled eggs, oh my baby how I love your legs'?",
+    "question": "What Beatles song contains the lyric 'There's a shadow hanging over me'?",
     "correct_answer": "Yesterday",
     "answers": [
       "Yesterday",
@@ -24,9 +24,9 @@
       "Something",
       "Here, There and Everywhere"
     ],
-    "explanation": "Paul McCartney used those placeholder lyrics while working out the melody. He eventually replaced them, and the finished song became the most covered song in recorded music history.",
-    "hint": "Paul McCartney says the melody came to him in a dream.",
-    "difficulty": "hard",
+    "explanation": "Paul McCartney says the melody came to him in a dream. He used the placeholder lyrics 'Scrambled eggs, oh my baby how I love your legs' until he wrote the real words.",
+    "hint": "It's from the 1965 album Help!",
+    "difficulty": "medium",
     "listen_query": "Beatles Yesterday official remastered"
   },
   {
@@ -69,7 +69,7 @@
       "Here, There and Everywhere",
       "Michelle"
     ],
-    "explanation": "Paul McCartney wrote the melody as a teenager and dusted it off for the Sgt. Pepper album. He recorded it on his father Jim's 64th birthday.",
+    "explanation": "Paul McCartney wrote the melody as a teenager and dusted it off for the Sgt. Pepper album.",
     "hint": "Paul McCartney wrote the melody when he was a teenager.",
     "difficulty": "medium",
     "listen_query": "Beatles When I'm Sixty-Four remastered"
@@ -84,7 +84,7 @@
       "Maxwell's Silver Hammer",
       "Octopus's Garden"
     ],
-    "explanation": "John Lennon hated this song and called it 'granny music.' A Nigerian musician named Jimmy Scott had used the phrase 'ob-la-di, ob-la-da' and later sued for a songwriting credit.",
+    "explanation": "John Lennon hated this song and called it 'granny music.' A Nigerian musician named Jimmy Scott, who had used the phrase 'ob-la-di, ob-la-da,' sought a songwriting credit.",
     "hint": "It's from the White Album and has a ska-influenced rhythm.",
     "difficulty": "hard",
     "listen_query": "Beatles Ob-La-Di Ob-La-Da remastered"
@@ -114,7 +114,7 @@
       "Rain",
       "Dear Prudence"
     ],
-    "explanation": "George Harrison wrote the song in Eric Clapton's garden while skipping a business meeting at Apple Corps. It was one of the first songs composed on a Moog synthesizer.",
+    "explanation": "George Harrison wrote the song in Eric Clapton's garden while skipping a business meeting at Apple Corps. The recording uses a Moog synthesizer.",
     "hint": "It's on Abbey Road and was written by the band's lead guitarist.",
     "difficulty": "easy",
     "listen_query": "Beatles Here Comes the Sun official"
@@ -129,7 +129,7 @@
       "Revolution",
       "Yer Blues"
     ],
-    "explanation": "Lennon got the title from the cover of a gun magazine that George Martin showed him. The song shifts between four different musical styles in under three minutes.",
+    "explanation": "Lennon got the title from the cover of an American gun magazine. The song shifts between four different musical styles in under three minutes.",
     "hint": "It's from the White Album and changes musical styles several times.",
     "difficulty": "hard",
     "listen_query": "Beatles Happiness Is a Warm Gun remastered"
@@ -175,7 +175,7 @@
       "Start Me Up"
     ],
     "explanation": "Mick Jagger wrote the lyrics as a plea to a woman, but the title came from a joking comment Keith Richards made about their working relationship.",
-    "hint": "It's from the album Let It Bleed, released in 1969.",
+    "hint": "It's from the album Some Girls, released in 1978.",
     "difficulty": "medium",
     "listen_query": "Rolling Stones Beast of Burden official"
   },
@@ -264,7 +264,7 @@
       "Sympathy for the Devil",
       "Brown Sugar"
     ],
-    "explanation": "The name came from Keith Richards' gardener, Jack Dyer, whose footsteps woke Jagger one morning. When Jagger asked what the noise was, Richards said, 'Oh, that's jumpin' Jack.'",
+    "explanation": "The name came from Keith Richards' gardener, whose footsteps woke Jagger one morning. When Jagger asked what the noise was, Richards said, 'Oh, that's jumpin' Jack.'",
     "hint": "Keith Richards named it after his gardener.",
     "difficulty": "medium",
     "listen_query": "Rolling Stones Jumpin Jack Flash official"
@@ -324,7 +324,7 @@
       "L.A. Woman",
       "Waiting for the Sun"
     ],
-    "explanation": "It was the last song the Doors recorded with Jim Morrison. He died in Paris three weeks after the album was released. The rain and thunder sound effects were added in the studio.",
+    "explanation": "It was the last song the Doors recorded with Jim Morrison. He died in Paris shortly after the album was released. The rain and thunder sound effects were added in the studio.",
     "hint": "You can hear rain and thunder sound effects on the recording.",
     "difficulty": "medium",
     "listen_query": "The Doors Riders on the Storm official"
