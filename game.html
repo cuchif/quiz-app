@@ -396,10 +396,10 @@ function handleAnswer(btn, answer) {
       if (anagram === q.correct_answer.replace(/\s+/g, '').toLowerCase()) {
         anagram = chars.reverse().join('');
       }
-      hintArea.innerHTML += `<div class="hint-box" id="anagramBox">This anagram of the correct answer will disappear in 2 secs: <strong>${anagram}</strong></div>`;
+      hintArea.innerHTML += `<div class="hint-box" id="anagramBox">This anagram of the correct answer will disappear in 3 secs: <strong>${anagram}</strong></div>`;
       setTimeout(() => {
         if (answered) return;
-        let timeLeft = 2;
+        let timeLeft = 3;
         const anagramInterval = setInterval(() => {
           timeLeft--;
           if (timeLeft <= 0) {
