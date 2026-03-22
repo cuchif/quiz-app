@@ -476,6 +476,7 @@ function playTwinkle() {
 function endQuestionWrong(q) {
   answered = true;
   streak = 0;
+  score = Math.max(0, score - 3);
   playBoing();
   disableAllButtons();
   const allBtns = document.querySelectorAll('.answer-btn');
@@ -487,7 +488,7 @@ function endQuestionWrong(q) {
   const fb = document.getElementById('feedbackArea');
   fb.style.display = 'block';
   fb.innerHTML = `<div class="feedback-box" style="background:rgba(239,83,80,0.1);border:1px solid #c62828;color:#ef9a9a;">
-    <div class="fb-title" style="color:#ef5350;">The correct answer is: ${q.correct_answer}</div>
+    <div class="fb-title" style="color:#ef5350;">The correct answer is ${q.correct_answer}. (-3 pts.)</div>
     <div class="fb-explain">${q.explanation}</div>
   </div>`;
   showNextButton();
