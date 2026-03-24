@@ -1,0 +1,92 @@
+[
+  {
+    "topic": "Film & TV",
+    "question": "In what year did Walt Disney release Snow White and the Seven Dwarfs?",
+    "correct_answer": "1937",
+    "incorrect_answers": ["1934", "1940", "1942"],
+    "explanation": "Snow White premiered in 1937. Hollywood had been calling it \"Disney's Folly\" for years, convinced nobody would sit through a feature-length cartoon. It earned $8 million at the box office — during the Great Depression.",
+    "hint": "It came out before World War II started.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "Which of the Seven Dwarfs never speaks a word in Snow White and the Seven Dwarfs?",
+    "correct_answer": "Dopey",
+    "incorrect_answers": ["Bashful", "Sleepy", "Happy"],
+    "explanation": "Dopey doesn't say a word in the entire film. When the other dwarfs are asked why, Happy says it's because he never tried. Walt Disney originally wanted Dopey to say one line at the very end, but he could never find a voice he liked for it.",
+    "hint": "He's the youngest of the group.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What do the Seven Dwarfs do for a living in Snow White and the Seven Dwarfs?",
+    "correct_answer": "Mine for jewels",
+    "incorrect_answers": ["Farm the land", "Work as blacksmiths", "Chop wood"],
+    "explanation": "The dwarfs mine diamonds and gems all day, then lock them in a vault and never spend a dime. They're sitting on a fortune but live in a cottage so dirty that Snow White can't believe the mess when she first walks in.",
+    "hint": "Their workplace is underground.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What kind of fruit does the Evil Queen use to poison Snow White?",
+    "correct_answer": "An apple",
+    "incorrect_answers": ["A pear", "A plum", "A pomegranate"],
+    "explanation": "An apple dipped in a potion the Queen calls the \"Sleeping Death.\" If you look closely during the dipping scene, you'll see a skull shape forming in the poison.",
+    "hint": "It's a very common red fruit.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What animal friends help Snow White clean the Dwarfs' cottage?",
+    "correct_answer": "Forest animals",
+    "incorrect_answers": ["Fairy godmothers", "Enchanted brooms", "Talking mice"],
+    "explanation": "Deer, rabbits, squirrels, chipmunks, and birds all pitch in. The birds use their tails as dusters, and a turtle gets used as a washboard. Disney liked the idea so much he brought it back years later with the mice in Cinderella.",
+    "hint": "They're not magical creatures — just regular woodland critters.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "Who provided the voice of Snow White in the 1937 Disney film?",
+    "correct_answer": "Adriana Caselotti",
+    "incorrect_answers": ["Mary Pickford", "Deanna Durbin", "Lucille La Verne"],
+    "explanation": "Adriana Caselotti, who was just 18. Disney was so determined to keep the voice exclusive to Snow White that her contract banned her from any other film or radio work. She was paid $970 for the entire role — about $21,000 today.",
+    "hint": "She was a teenager when she got the part.",
+    "difficulty": "hard"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What do the Dwarfs build to hold Snow White's body after she falls under the Sleeping Death?",
+    "correct_answer": "A coffin made of glass and gold",
+    "incorrect_answers": ["A wooden casket covered in flowers", "A crystal tomb inside their mine", "A silver bed under a willow tree"],
+    "explanation": "A glass and gold coffin. The scene where the Dwarfs keep watch as the seasons pass was animated by looking at real time-lapse footage — pretty advanced for 1937.",
+    "hint": "You can see right through it.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "How does the Evil Queen disguise herself to trick Snow White into eating the poisoned apple?",
+    "correct_answer": "As an old peddler woman",
+    "incorrect_answers": ["As a traveling nurse", "As a kindly grandmother", "As a fellow princess"],
+    "explanation": "The Queen drinks a potion and transforms into a stooped old peddler woman with warts and a hooked nose. The actress who voiced the Queen, Lucille La Verne, also voiced the old hag — she reportedly took out her dentures to get that creaky old-lady sound.",
+    "hint": "She uses a potion to completely change her appearance.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What song do the Seven Dwarfs sing as they march home from the mine?",
+    "correct_answer": "Heigh-Ho",
+    "incorrect_answers": ["Whistle While You Work", "The Silly Song", "With a Smile and a Song"],
+    "explanation": "\"Heigh-Ho.\" Almost everyone misquotes it as \"it's off to work we go,\" but the actual lyric is \"it's home from work we go.\" The dwarfs sing it on the walk back, not on the way there.",
+    "hint": "The title is a two-syllable exclamation.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Film & TV",
+    "question": "What happens to the Evil Queen at the end of Snow White and the Seven Dwarfs?",
+    "correct_answer": "She falls off a cliff during a storm",
+    "incorrect_answers": ["The Prince captures her and locks her in a dungeon", "The Dwarfs trap her inside the mine", "She is turned to stone by the Magic Mirror"],
+    "explanation": "The Dwarfs chase her up a cliff in a thunderstorm, and lightning strikes the ledge out from under her. In the Brothers Grimm version, she's forced to dance in red-hot iron shoes at Snow White's wedding.",
+    "hint": "The Dwarfs chase her to a high, dangerous place.",
+    "difficulty": "medium"
+  }
+]

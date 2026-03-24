@@ -1,0 +1,92 @@
+[
+  {
+    "topic": "Science & Nature",
+    "question": "What organelle generates most of a cell's supply of adenosine triphosphate (ATP)?",
+    "correct_answer": "Mitochondrion",
+    "incorrect_answers": ["Ribosome", "Golgi apparatus", "Endoplasmic reticulum"],
+    "explanation": "The mitochondrion. Billions of years ago, a cell swallowed a bacterium — and instead of digesting it, the two struck up a permanent living arrangement. Mitochondria still carry their own DNA from that original roommate.",
+    "hint": "It's sometimes called the powerhouse of the cell.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Science & Nature",
+    "question": "What pigment in plant cells absorbs sunlight to drive photosynthesis?",
+    "correct_answer": "Chlorophyll",
+    "incorrect_answers": ["Melanin", "Carotene", "Hemoglobin"],
+    "explanation": "Chlorophyll. Those fall colors — the reds, oranges, and yellows — are actually there all year. You just can't see them until the chlorophyll breaks down and stops hogging all the attention.",
+    "hint": "Its name starts with the same five letters as the organelle it's found in.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Science & Nature",
+    "question": "What is the largest organ in the human body by surface area?",
+    "correct_answer": "Skin",
+    "incorrect_answers": ["Liver", "Lungs", "Small intestine"],
+    "explanation": "Skin. You shed and regrow all your skin roughly every month, which means you'll go through about a thousand complete sets of skin in your lifetime.",
+    "hint": "You're looking at it right now.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Science & Nature",
+    "question": "How many chambers does the human heart have?",
+    "correct_answer": "Four",
+    "incorrect_answers": ["Two", "Three", "Five"],
+    "explanation": "Four. A fish gets by with two and a frog with three, but mammals need four to keep used and fresh blood from mixing. Your heart beats about 100,000 times a day and never takes a break — not even when you're asleep.",
+    "hint": "It's an even number less than six.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Science & Nature",
+    "question": "What molecule shaped like a twisted ladder carries the genetic instructions for all known living organisms?",
+    "correct_answer": "DNA",
+    "incorrect_answers": ["RNA", "ATP", "Protein"],
+    "explanation": "DNA — deoxyribonucleic acid. If you uncoiled all the DNA from a single human cell and stretched it out, it would be about six feet long. Do that for every cell in your body and you'd have enough to reach the sun and back over 600 times.",
+    "hint": "It's a three-letter abbreviation.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Science & Nature",
+    "question": "What process allows plants to convert carbon dioxide and water into glucose using sunlight?",
+    "correct_answer": "Photosynthesis",
+    "incorrect_answers": ["Fermentation", "Cellular respiration", "Chemosynthesis"],
+    "explanation": "Photosynthesis. Most people picture trees when they think about where oxygen comes from, but the majority is actually produced by tiny cyanobacteria and algae floating in the ocean.",
+    "hint": "The word literally means \"putting together with light.\"",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Science & Nature",
+    "question": "What type of blood cell is responsible for carrying oxygen from the lungs to the rest of the body?",
+    "correct_answer": "Red blood cell",
+    "incorrect_answers": ["White blood cell", "Platelet", "Plasma cell"],
+    "explanation": "Red blood cells. They're so dedicated to their job that they throw out their own nucleus during development just to carry more oxygen. No other cell in your body does that.",
+    "hint": "Their name describes their color.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Science & Nature",
+    "question": "What structure inside a cell contains the chromosomes and controls the cell's activities?",
+    "correct_answer": "Nucleus",
+    "incorrect_answers": ["Cytoplasm", "Cell membrane", "Vacuole"],
+    "explanation": "The nucleus. Think of it as the cell's front office — all the big decisions get made there. Red blood cells are the rebels: they kick theirs out to free up space for hauling oxygen.",
+    "hint": "It shares its name with the dense center of an atom.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Science & Nature",
+    "question": "What is the name of the theory that explains how species change over generations through natural selection?",
+    "correct_answer": "Evolution",
+    "incorrect_answers": ["Spontaneous generation", "Lamarckism", "Panspermia"],
+    "explanation": "Evolution by natural selection. Darwin usually gets the credit, but Alfred Russel Wallace arrived at the same idea independently while recovering from a fever in Malaysia. He mailed his paper to Darwin, who had been developing the theory privately for 20 years and hadn't published.",
+    "hint": "Darwin is the name most associated with this theory.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Science & Nature",
+    "question": "What tough, flexible substance makes up the exoskeletons of insects, crabs, and lobsters?",
+    "correct_answer": "Chitin",
+    "incorrect_answers": ["Keratin", "Collagen", "Calcium carbonate"],
+    "explanation": "Chitin. Next time you eat a mushroom, you're eating the same stuff that makes up a lobster shell. Nature found something that works and used it everywhere.",
+    "hint": "It's also found in the cell walls of mushrooms.",
+    "difficulty": "hard"
+  }
+]

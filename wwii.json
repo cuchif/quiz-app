@@ -1,0 +1,92 @@
+[
+  {
+    "topic": "History",
+    "question": "What country did Germany invade on September 1, 1939, triggering the start of World War II?",
+    "correct_answer": "Poland",
+    "incorrect_answers": ["Czechoslovakia", "France", "Belgium"],
+    "explanation": "Britain and France had guaranteed Poland's borders, so when Hitler invaded, they declared war two days later. Hitler reportedly didn't believe they'd follow through.",
+    "hint": "It shares a border with Germany to the east.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "History",
+    "question": "What machine did Germany use to send encrypted military messages during World War II?",
+    "correct_answer": "Enigma",
+    "incorrect_answers": ["Colossus", "Lorenz", "Typex"],
+    "explanation": "It had one fatal design flaw: it could never encrypt a letter as itself. The letter A could become anything except A. That single weakness helped the codebreakers at Bletchley Park crack it.",
+    "hint": "Its name is a synonym for \"puzzle\" or \"mystery.\"",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "History",
+    "question": "What Japanese city was the target of the first atomic bomb used in warfare?",
+    "correct_answer": "Hiroshima",
+    "incorrect_answers": ["Nagasaki", "Tokyo", "Osaka"],
+    "explanation": "The bomb was dropped on August 6, 1945. The city was chosen partly because it hadn't been heavily bombed yet — the military wanted an intact target to measure the full effect.",
+    "hint": "It was the first of two Japanese cities hit by atomic bombs in August 1945.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "History",
+    "question": "What was the code name for the Allied invasion of Normandy on June 6, 1944?",
+    "correct_answer": "Operation Overlord",
+    "incorrect_answers": ["Operation Barbarossa", "Operation Market Garden", "Operation Torch"],
+    "explanation": "To keep the real target secret, the Allies ran an elaborate bluff called Operation Fortitude — complete with inflatable tanks and a fake army \"commanded\" by General Patton — to convince Germany the landing would be at Calais.",
+    "hint": "The name suggests supreme authority.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "History",
+    "question": "What battle, fought from August 1942 to February 1943, is considered the turning point of the war on the Eastern Front?",
+    "correct_answer": "Battle of Stalingrad",
+    "incorrect_answers": ["Battle of Kursk", "Battle of Moscow", "Battle of Berlin"],
+    "explanation": "The fighting was so close-quarters that soldiers called it \"Rattenkrieg\" — rat war. Some buildings changed hands dozens of times in a single day.",
+    "hint": "The city was named after the Soviet leader.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "History",
+    "question": "Who was the Supreme Commander of Allied forces in Europe who later became President of the United States?",
+    "correct_answer": "Dwight Eisenhower",
+    "incorrect_answers": ["Douglas MacArthur", "George Patton", "Omar Bradley"],
+    "explanation": "The night before D-Day, he wrote a letter taking full blame in case the invasion failed. He tucked it in his wallet and forgot about it — it turned up in his papers years later.",
+    "hint": "His nickname was \"Ike.\"",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "History",
+    "question": "What was the name of the secret program that developed the atomic bomb?",
+    "correct_answer": "The Manhattan Project",
+    "incorrect_answers": ["The Trinity Program", "The Prometheus Initiative", "Project Rainbow"],
+    "explanation": "It employed over 125,000 people, and most of them had no idea what they were building. Workers at the Oak Ridge, Tennessee facility were told only that they were helping to end the war.",
+    "hint": "It's named after a part of New York City.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "History",
+    "question": "What was the name of the operation to evacuate Allied soldiers from the beaches of Dunkirk in 1940?",
+    "correct_answer": "Operation Dynamo",
+    "incorrect_answers": ["Operation Sealion", "Operation Pied Piper", "Operation Mincemeat"],
+    "explanation": "The Royal Navy didn't have enough ships, so hundreds of civilian boats — fishing boats, yachts, even river ferries — crossed the English Channel to help. They rescued about 338,000 soldiers in nine days.",
+    "hint": "Its name refers to a type of electrical generator.",
+    "difficulty": "hard"
+  },
+  {
+    "topic": "History",
+    "question": "What country did Germany invade in June 1941, breaking a nonaggression pact?",
+    "correct_answer": "The Soviet Union",
+    "incorrect_answers": ["Great Britain", "Turkey", "Sweden"],
+    "explanation": "Stalin had been warned repeatedly — by his own spies, by the British, even by a German deserter the night before — but he refused to believe Hitler would actually attack.",
+    "hint": "Germany and this country had signed a pact in 1939.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "History",
+    "question": "What name was given to the German bombing campaign against British cities in 1940 and 1941?",
+    "correct_answer": "The Blitz",
+    "incorrect_answers": ["The Firestorm", "The Siege", "The Blackout"],
+    "explanation": "The name comes from \"Blitzkrieg,\" meaning \"lightning war.\" London was bombed for 57 consecutive nights. Thousands of people slept on the platforms of the London Underground, which doubled as a massive air-raid shelter.",
+    "hint": "The name comes from a German word meaning \"lightning.\"",
+    "difficulty": "easy"
+  }
+]
