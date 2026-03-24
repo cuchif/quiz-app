@@ -1,0 +1,92 @@
+[
+  {
+    "topic": "Food & Drink",
+    "question": "What spice, the most expensive in the world by weight, comes from the dried stigmas of a crocus flower?",
+    "correct_answer": "Saffron",
+    "incorrect_answers": ["Turmeric", "Cardamom", "Vanilla"],
+    "explanation": "Each flower produces only three stigmas, all picked by hand. It takes about 75,000 flowers to produce a single pound.",
+    "hint": "It gives paella and risotto Milanese their golden color.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Food & Drink",
+    "question": "What nut is the main ingredient in marzipan?",
+    "correct_answer": "Almond",
+    "incorrect_answers": ["Pistachio", "Hazelnut", "Walnut"],
+    "explanation": "In Germany, there are laws about the minimum almond content in marzipan — it has to be at least 28%.",
+    "hint": "It's also the base of amaretto liqueur.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Food & Drink",
+    "question": "What Japanese word refers to skewered, grilled chicken?",
+    "correct_answer": "Yakitori",
+    "incorrect_answers": ["Teriyaki", "Tempura", "Tonkatsu"],
+    "explanation": "\"Yaki\" means grilled, \"tori\" means bird. In Japan, yakitori shops serve every part of the chicken — heart, liver, skin, cartilage, even the tail.",
+    "hint": "The first part of the word means \"grilled.\"",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Food & Drink",
+    "question": "What country was the Caesar salad invented in?",
+    "correct_answer": "Mexico",
+    "incorrect_answers": ["Italy", "United States", "France"],
+    "explanation": "Caesar Cardini, an Italian immigrant, threw it together at his restaurant in Tijuana during a busy Fourth of July weekend in 1924 with whatever he had left in the kitchen.",
+    "hint": "Despite the Italian-sounding name, it wasn't invented in Europe.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Food & Drink",
+    "question": "What grain is used to make traditional Japanese sake?",
+    "correct_answer": "Rice",
+    "incorrect_answers": ["Barley", "Wheat", "Rye"],
+    "explanation": "The rice is specially grown — larger and starchier than table rice. Up to half of each grain gets polished away before brewing, and the more you polish, the fancier the sake.",
+    "hint": "It's the staple grain of East Asia.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Food & Drink",
+    "question": "What vegetable gives borscht its deep red-purple color?",
+    "correct_answer": "Beet",
+    "incorrect_answers": ["Cabbage", "Tomato", "Red pepper"],
+    "explanation": "In Ukraine, families argue over borscht recipes the way Americans argue over barbecue. There's a hot version, a cold version, and even a green one made with sorrel instead of beets.",
+    "hint": "It's a root vegetable that stains everything it touches.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Food & Drink",
+    "question": "What French cooking technique involves sealing food in a bag and cooking it in water at a precise low temperature?",
+    "correct_answer": "Sous vide",
+    "incorrect_answers": ["En croûte", "Flambé", "Confit"],
+    "explanation": "French chef Georges Pralus developed it in the 1970s because he couldn't stop his foie gras from shrinking.",
+    "hint": "The term translates to \"under vacuum.\"",
+    "difficulty": "hard"
+  },
+  {
+    "topic": "Food & Drink",
+    "question": "What spice gives most curry powders their yellow color?",
+    "correct_answer": "Turmeric",
+    "incorrect_answers": ["Saffron", "Cumin", "Coriander"],
+    "explanation": "Buddhist monks' robes get their orange-yellow color from it — it's been used as a fabric dye for centuries.",
+    "hint": "It's a root related to ginger.",
+    "difficulty": "easy"
+  },
+  {
+    "topic": "Food & Drink",
+    "question": "What pastry, made from layers of thin dough, butter, and chopped nuts, is soaked in honey or sugar syrup?",
+    "correct_answer": "Baklava",
+    "incorrect_answers": ["Strudel", "Cannoli", "Éclair"],
+    "explanation": "Nobody agrees on who invented it. Turkey, Greece, Lebanon, and about a dozen other countries all claim credit — and they get surprisingly heated about it.",
+    "hint": "It's common across the Middle East, North Africa, and the Balkans.",
+    "difficulty": "medium"
+  },
+  {
+    "topic": "Food & Drink",
+    "question": "What bean is chocolate made from?",
+    "correct_answer": "Cacao bean",
+    "incorrect_answers": ["Coffee bean", "Vanilla bean", "Tonka bean"],
+    "explanation": "The ancient Maya drank it as a bitter, spicy beverage mixed with chili peppers. Adding sugar was a European idea that came centuries later.",
+    "hint": "The tree it grows on has a Latin name that translates to \"food of the gods.\"",
+    "difficulty": "easy"
+  }
+]
